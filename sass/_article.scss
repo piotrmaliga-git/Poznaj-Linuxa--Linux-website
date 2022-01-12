@@ -7,119 +7,38 @@
 	font-size: $article-font-size;
 	border-radius: 8px;
 	padding: 30px;
-}
-.article__maim-title{
-	font-size: 35px;
-}
-.article__dotted-line{
-	height: 5px;
-	margin: 15px 0 25px 0;
-	border-bottom: 2px dotted $dark-gray;
-}
-.article__image{
-	width: 85%;
-	display: block;
-	margin: auto auto;
-	padding: 25px;
-}
-.article__image-2{
-	width: 45%;
-	display: block;
-	margin: auto auto;
-	padding: 25px;
-}
-.article__image-3{
-	width: 75%;
-	display: block;
-	margin: auto auto;
-	padding: 25px;
-}
-.article__image-shadow{
-	width: 90%;
-	display: block;
-	margin: auto auto;
-}
-.article__image-logo{
-	display: block;
-	margin: auto auto;
-	width: 45%;
-	height: 45%;
-	padding: 50px 25px;
-}
-.article__image-logo-2{
-	display: block;
-	margin: auto auto;
-	width: 30%;
-	height: 30%;
-	padding:  50px 25px;
-}
-.article__image-installation{
-	width: 85%;
-	display: block;
-	margin: auto auto;
-	border: 1px solid $dark-gray-o8;
-}
-.article__title{
-	padding: 10px 25px;
-	text-align: left;
-}
-.article__title-smaller{
-	text-align: left;
-	padding: 0px 25px;
-}
-.article__text{
-	padding: 25px;
-}
-.article__text-small{
-	text-align: left;
-	padding: 25px;
-}
-.article__list{
-	padding: 25px;
-	padding-left: 40px;
-}
-.article__list-item{
-	text-align: left;
-	font-size: 15.6px;
-	padding: 5px;
-}
-.article__list-2{
-	padding: 25px;
-	padding-left: 45px;
-}
-.article__list-item-2{
-	text-align: left;
-	padding: 5px;
-}
-.article__list-3{
-	padding: 10px 25px;
-	padding-left: 40px;
-}
-.article__list-item-3{
-	text-align: justify;
-	font-size: 17px;
-	padding: 5px;
-}
-.article__list-4{
-	padding: 25px;
-	list-style-type: none;
-}
-.article__list-5{
-	padding-left: 100px;
-}
-.article__list-item-5{
-	text-align: left;
-	font-size: 16px;
-	padding-bottom: 20px;
-}
-figcaption{
-	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 20px;
-	font-size: $figcaption-font-size;
-}
-.article__links{
-	text-decoration: none;
-	cursor: pointer;
-	color: $article-link;
+	.article__maim-title{
+		font-size: 35px;
+	}
+	.article__dotted-line{
+		height: 5px;
+		margin: 15px 0 25px 0;
+		border-bottom: 2px dotted $dark-gray;
+	}
+	.article__title{
+		padding: 10px 25px;
+		text-align: left;
+	}
+	.article__title-smaller{
+		text-align: left;
+		padding: 0px 25px;
+	}
+	.article__text{
+		padding: 25px;
+	}
+	.article__text-small{
+		text-align: left;
+		padding: 25px;
+	}
+	.article__links{
+		text-decoration: none;
+		cursor: pointer;
+		color: $article-link;
+	}
+	figcaption{
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 20px;
+		font-size: $figcaption-font-size;
+	}
 }
