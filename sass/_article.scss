@@ -4,7 +4,7 @@
 	background-image: linear-gradient(to right, $article-bg-gradient-d, $article-bg-gradient-l);
 	color: $black;
 	text-align: justify;
-	font-size: 18px;
+	font-size: $article-font-size;
 	border-radius: 8px;
 	padding: 30px;
 }

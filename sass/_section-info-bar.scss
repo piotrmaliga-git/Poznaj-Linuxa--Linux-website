@@ -1,6 +1,6 @@
 .section__info-bar{
 	width: 50%;
-	margin: auto auto;
+	margin-inline: auto;
 	background-color: $my-green-o9;
 	margin-top: 130px;
 	margin-bottom: 30px;
@@ -13,14 +13,14 @@
 		height: auto;
 		padding: 30px;
 		border-right: 2px dotted $white;
-		margin: auto auto;
+		margin-inline: auto;
 	}
 	.section__info-bar-right{
 		float: left;
 		padding: 30px;
 		width: 78%;
 		height: auto;
-		font-size: 17px;
+		font-size: $info-bar-font-size;
 		text-align: justify;
 		.section__info-bar-right-title {
 			margin-bottom: 15px;
