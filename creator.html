@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=, initial-scale=1.0">
+   <meta name="descrition" content="Poznaj Linuxa!" />
+   <meta name="keywords" content="Linux, Dlaczego Linux?, Historia, instalacja, Komendy, Terminal, Bash, Twórca, Dystrybucje, Linus Torvalds" />
+   <meta name="author" content="Piotr Maliga" />
+   <title>Poznaj Linuxa!</title>
+
+   <link rel="stylesheet" href="css/style.css">
+
+   <link rel="icon" type="image/png" href="img/icon/favicon.png">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;800&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+   integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+   <div class="body__bg-image"></div>
+
+   <nav class="nav">
+        <div class="nav__logo">
+            <a class="nav__logo-title" href="index.html">Poznaj Linuxa!</a>
+        </div>
+        <ul class="nav__links"> 
+            <li class="nav__item">
+                <a class="nav__link" href="index.html">Dlaczego Linux?</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="history.html">Historia</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link-active" href="creator.html">Twórca</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="distributions.html">Dystrybucje</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="installation.html">Instalacja</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="commands.html">Komendy</a>
+            </li>
+        </ul>
+        <div class="nav__burger-menu">
+            <div class="burger-menu--line1"></div>
+            <div class="burger-menu--line2"></div>
+            <div class="burger-menu--line3"></div>
+        </div>
+        <script src="js/nav-bar.js"></script>
+    </nav>
+
+    <section class="section">
+        <div class="section__info-bar">
+            <div class="section__info-bar-left">
+                <img class="section__info-bar-left-image" src="img/linux.png" alt="Brak zdjęcia zgłoś administratorowi." />
+            </div>
+            <div class="section__info-bar-right">
+                <h1 class="section__info-bar-right-title">Kilka słów o projekcie</h1>
+                <p class="section__info-bar-right-text">
+                    „Kiedy mówisz „Napisałem program, który wywalił Windows”, ludzie gapią się na ciebie głupkowato i
+                    mówią „Hej, dostałem je wraz z systemem, *za darmo*.«“ - Powiedział to Linus Torvalds, twórca
+                    Linuxa. Zapraszam do zapoznania się z wirtyną, dzięki której dowiesz sie co to jest Linux i
+                    wybierzesz dystrybucję dla siebie!
+                </p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    
+        <div class="section__gallery">
+            <div class="section__gallery-slider">
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g10.png" id="last" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g1.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g2.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g3.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g4.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g5.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g6.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g7.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g8.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g9.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g10.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g1.jpg" id="first" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+            </div>
+    
+            <i class="fas fa-chevron-left" id="previous"></i>
+            <i class="fas fa-chevron-right" id="next"></i>
+        
+        </div>
+        <script src="js/image-slider.js"></script>
+    </section>
+
+    <article class="article">
+      <h1 class="article__maim-title">Kim jest twórca linuxa ?</h1>
+
+   <div class="article__dotted-line"></div>
+
+   <figure>
+      <img class="article__image-2" src="img/Linus-Torvalds.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+      <figcaption></figcaption>
+   </figure>
+   
+   <p class="article__text">
+      <b>Linus Benedict Torvalds</b> (ur. 28 grudnia 1969 w Helsinkach) – fiński programista, twórca jądra Linux oraz systemu kontroli wersji Git. Należy do społeczności Finów szwedzkojęzycznych. Uczęszczał na Uniwersytet Helsiński. Poprzez stworzenie jądra Linux nadał impuls do gwałtownego rozwoju wolnego oprogramowania. Sam należy do zwolenników powstałego później ruchu otwartego oprogramowania. W 2000 roku otrzymał od Steve'a Jobsa propozycję pracy w Apple Inc. oraz współpracy nad powstającym wtedy Mac OS X. Linus odrzucił ją, twierdząc, że „nienawidzi mikrojądra Mach”. Jest synem dziennikarza i polityka Nilsa Torvaldsa. Mieszka w Portland w stanie Oregon (Stany Zjednoczone), z żoną Tove (byłą mistrzynią Finlandii w karate) i trzema córkami: Patricią, Mirandą i Danielą. Jest zatrudniony w Linux Foundation (dawniej Open Source Development Labs). 
+   </p>
+
+   <div style="clear: both;"></div>
+
+   <h2 class="article__title">Rozwój Linuxa</h2>
+
+   <p class="article__text">
+      Zainspirowany przez edukacyjny system MINIX, stworzony przez Andrew Tanenbauma, Linus poczuł potrzebę posiadania wydajnego systemu operacyjnego typu Unix. System ten musiał działać na jego domowym komputerze klasy PC. Jądro Linux tworzył głównie w wolnym czasie i przy użyciu własnego sprzętu. Pierwsza wersja została opublikowana 15 października 1991.
+      <br/>
+      <br/>
+      Z czasem Linux stał się rozległym, złożonym projektem, w którym na zasadach dobrowolności udziela się wiele osób. Obecnie Linus Torvalds przede wszystkim nadzoruje jego rozwój. Opiekę nad wieloma podsystemami Linuksa oraz stabilnymi gałęziami kodu przekazuje zaufanym współpracownikom, do których zaliczają się między innymi Alan Cox, Andrew Morton czy Marcelo Tosatti.
+      <br/>
+      <br/>
+      Jest uznawany za pragmatyka. Rozwój Linuksa traktuje jako proces ewolucyjny, kierowany potrzebami twórców i użytkowników. Jego zdaniem konstruowanie dalekosiężnych planów nie ma sensu, ponieważ nie istnieje sposób na określenie celów, które przetrwałyby próbę czasu.
+   </p>
+
+   <h2 class="article__title">Wyróżnienia</h2>
+   
+   <ul class="article__list">
+      <li class="article__list-item">
+         <b>1996</b> - asteroida (9793) Torvalds nazwana na cześć Linusa Torvaldsa
+      </li>
+      <li class="article__list-item">
+         <b>1998</b> - nagroda EEF Pioneer Award
+      </li>
+      <li class="article__list-item">
+         <b>1999</b> - honorowy doktorat na Uniwersytecie w Sztokholmie
+      </li>
+      <li class="article__list-item">
+         <b>2000</b> - honorowy doktorat na Uniwersytecie w Helsinkach
+      </li>
+      <li class="article__list-item">
+         <b>2000</b> - Linus Torvalds nagrodzony nagrodą Lovelace Medal
+      </li>
+      <li class="article__list-item">
+         <b>2000</b> - 17. miejsce w ankiecie Person of the Century miesięcznika Time
+      </li>
+      <li class="article__list-item">
+         <b>2001</b> - nagroda Takeda_Award wspólnie z Richardem M. Stallmanem i Kenem Sakamurą
+      </li>
+      <li class="article__list-item">
+         <b>2001</b> - w filmie Swordfish pojawia się postać najlepszego hakera na świecie, Fina, nazywającego się Axl Torvalds
+      </li>
+      <li class="article__list-item">
+         <b>2004</b> - w artykule magazynu Time Linus Torvalds został nazwany „Jedną z najbardziej wpływowych osób świata”
+      </li>
+      <li class="article__list-item">
+         <b>2004</b> - 16. miejsce w głosowaniu na 100 Największych Finów
+      </li>
+      <li class="article__list-item">
+         <b>2005</b> - w ankiecie magazynu BusinessWeek Linus został nazwany „jednym z najlepszych managerów”</li>
+      <li class="article__list-item">
+         <b>2005</b> - nagroda im. Howarda Volluma
+      </li>
+      <li class="article__list-item">
+         <b>2006</b> - magazyn Time nazywa Linusa jednym z rewolucyjnych bohaterów ostatnich 60 lat
+      </li>
+   </ul>
+
+   <h2 class="article__title">Książki</h2>
+
+   <p class="article__text">
+      W 2001 roku Linus Torvalds i David Diamond wydali książke pod tytułem: <em>Just for Fun: The Story of an Accidental Revolutionary</em> wydaną przez New York- HarperBusiness. Wydanie polskie: Po prostu dla zabawy: Historia przypadkowej rewolucji została wydana w 2002 roku. przez wydawnictwo Liber.
+   </p>
+
+   <figure>
+      <img class="article__image" src="img/just-for-fun.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+      <figcaption></figcaption>
+   </figure>
+
+    </article>
+
+    <footer class="footer">
+        <p class="footer__text">
+            Poznaj Linuxa!- najlepsze darmowe forum o Linuxie. Strona w sieci od 2021r. &copy; Wszelkie prawa
+            zastrzeżone.
+        </p>
+    </footer>
+</body>
+</html>
