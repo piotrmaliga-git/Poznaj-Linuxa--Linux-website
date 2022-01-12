@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=, initial-scale=1.0">
+   <meta name="descrition" content="Poznaj Linuxa!" />
+   <meta name="keywords" content="Linux, Dlaczego Linux?, Historia, instalacja, Komendy, Terminal, Bash, Twórca, Dystrybucje, Linus Torvalds" />
+   <meta name="author" content="Piotr Maliga" />
+   <title>Poznaj Linuxa!</title>
+
+   <link rel="stylesheet" href="css/style.css">
+
+   <link rel="icon" type="image/png" href="img/icon/favicon.png">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;800&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+   integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+   <div class="body__bg-image"></div>
+
+   <nav class="nav">
+        <div class="nav__logo">
+            <a class="nav__logo-title" href="index.html">Poznaj Linuxa!</a>
+        </div>
+        <ul class="nav__links"> 
+            <li class="nav__item">
+                <a class="nav__link" href="index.html">Dlaczego Linux?</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link-active" href="history.html">Historia</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="creator.html">Twórca</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="distributions.html">Dystrybucje</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="installation.html">Instalacja</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="commands.html">Komendy</a>
+            </li>
+        </ul>
+        <div class="nav__burger-menu">
+            <div class="burger-menu--line1"></div>
+            <div class="burger-menu--line2"></div>
+            <div class="burger-menu--line3"></div>
+        </div>
+        <script src="js/nav-bar.js"></script>
+    </nav>
+
+    <section class="section">
+        <div class="section__info-bar">
+            <div class="section__info-bar-left">
+                <img class="section__info-bar-left-image" src="img/linux.png" alt="Brak zdjęcia zgłoś administratorowi." />
+            </div>
+            <div class="section__info-bar-right">
+                <h1 class="section__info-bar-right-title">Kilka słów o projekcie</h1>
+                <p class="section__info-bar-right-text">
+                    „Kiedy mówisz „Napisałem program, który wywalił Windows”, ludzie gapią się na ciebie głupkowato i
+                    mówią „Hej, dostałem je wraz z systemem, *za darmo*.«“ - Powiedział to Linus Torvalds, twórca
+                    Linuxa. Zapraszam do zapoznania się z wirtyną, dzięki której dowiesz sie co to jest Linux i
+                    wybierzesz dystrybucję dla siebie!
+                </p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    
+        <div class="section__gallery">
+            <div class="section__gallery-slider">
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g10.png" id="last" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g1.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g2.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g3.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g4.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g5.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g6.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g7.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g8.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g9.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g10.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g1.jpg" id="first" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+            </div>
+    
+            <i class="fas fa-chevron-left" id="previous"></i>
+            <i class="fas fa-chevron-right" id="next"></i>
+        
+        </div>
+        <script src="js/image-slider.js"></script>
+    </section>
+
+    <article class="article">
+      <h1 class="article__maim-title">Historia powstania Linuxa</h1>
+
+      <div class="article__dotted-line"></div>
+   
+      <figure>
+         <img class="article__image-shadow" src="img/linux-history.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+   
+      <p class="article__text">
+         26 sierpnia 1991 roku na grupie dyskusyjnej comp.os.minix pojawił się list fińskiego studenta, Linus Torvalds oznajmiał światu, że tworzy nowy system operacyjny. Ten dzień przyjmuje się jako datę powstania jądra Linuksa. Linus Torvalds inspirował się przeznaczonym do celów edukacyjnych uniksopodobnym systemem MINIX. Nie miał żadnych konkretnych planów związanych z nowym systemem, a to, co zdarzyło się później, było niezamierzonym sukcesem. Kiedy pojawiły się propozycje pomocy, Linus zamieścił swoje źródła na serwerze FTP. 17 września 1991 roku publicznie udostępniono pierwszą wersję jądra Linux.
+      </p>
+   
+      <h2 class="article__title">Jak powstała nazwa ?</h2>
+   
+      <p class="article__text">
+         Nazwa Linux powstała ze zbitki słów Linus i Unix, jej pomysłodawcą był Ari Lemmke. Stała się ona zastrzeżonym znakiem towarowym, którego właścicielem jest Linus Torvalds. Często nazwa Linux jest błędnie używana, powinna ona dotyczyć samego jądra, konkretne systemy operacyjne to tzw. dystrybucje Linuksa, np. Debian Linux, Ubuntu Linux itd. W odniesieniu do systemów można użyć nazwy „system operacyjny Linux”, jest to jednak bardzo ogólne sformułowanie i dotyczy całej rodziny produktów (podobnie jak np. zwrot „samochód osobowy”). Spotyka się także rozwinięcie nazwy Linux jako „Linux Is Not UniX”. Maskotką i nieoficjalnym logo Linuksa jest pingwin Tux, narysował go Larry Ewing w 1996 roku korzystając z dostępnego nieodpłatnie edytora grafiki GIMP. Uśmiechnięty pingwin stał się symbolem społeczności użytkowników Linuksa i zwolenników wolnego oprogramowania.
+      </p>
+   
+      <figure>
+         <img class="article__image-2" src="img/Tux.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+   
+      <p class="article__text">
+         Aby system operacyjny był kompletny, obok jądra potrzebne są też podstawowe programy, skrypty startowe, narzędzia konfiguracyjne i zestaw aplikacji użytkowych. Linux od początku wykorzystywany był z aplikacjami opracowywanymi dla wolnego systemu operacyjnego GNU i dostępnymi wraz z kodem źródłowym. Proces samodzielnego kompilowania i łączenia wszystkich składników jest bardzo pracochłonny, wymaga także posiadania dużej wiedzy na temat działania systemu operacyjnego. Wkrótce po opublikowaniu źródeł Linuksa pojawiły się gotowe do pobrania kompletne systemy nazwane dystrybucjami Linuksa. Pod koniec 1991 roku jako <em>„»Boot-root« HJ Lu”</em> opublikowano dwa obrazy dyskietek, pierwsza zawierała jądro Linux, na drugiej umieszczono zestaw programów GNU oraz narzędzia do konfigurowania systemu plików. Za pierwszą kompletną dystrybucję Linuksa uważa się MCC Interim Linux udostępniony w lutym 1992 roku. W maju 1992 roku pojawił się Softlanding Linux System, który przez pewien czas zdominował rynek dystrybucji Linuksa. Pierwszą komercyjną dystrybucją był Yggdrasil Linux, który ujrzał światło dzienne w grudniu 1992 roku. Dwie najstarsze rozwijane do dziś dystrybucje to Slackware i Debian. W lipcu 1993 roku niezadowolony z Softlanding Linux System Patrick Volkerding zbudował na podstawie tego system nową dystrybucję, którą nazwał Slackware. Podobny był początek wydanego 15 września 1993 roku Debiana, którego twórcą był Ian Murdock.
+      </p>
+   
+      <figure>
+         <img class="article__image-3" src="img/boot-root.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+   
+      <h2 class="article__title">Dalszy rozwój</h2>
+   
+      <p class="article__text">
+         Początkowo jedynym programistą jądra Linuksa był Linus, przedsięwzięcie przerodziło się w duży projekt, przy którym udziela się wiele osób, a Fin nadzoruje jego rozwój. Przedsięwzięcie przerodziło się w największy na świecie projekt współpracy przy tworzeniu oprogramowania. Wiele prac związanych z rozwojem Linuksa sponsorują duże firmy, są wśród nich tacy giganci jak Cisco, Fujitsu, Google, HP, IBM, Intel, Microsoft, NEC, Oracle i Samsung. Jądro systemu operacyjnego stanowi podstawową jego część, w dużym uproszczeniu można powiedzieć, że stanowi warstwę między sprzętem a oprogramowaniem. Na przykład twórca edytora tekstowego nie musi szczegółowo implementować operacji zapisu pliku na dysku, korzysta tylko z udostępnionej funkcji systemowej. Nie interesuje go, z jakim systemem plików edytor ma do czynienia, jak są ustawione prawa dostępu, czy jest miejsce na dysku – to wszystko obsługuje już funkcja systemowa. Dobrze napisany program zinterpretuje, to co zwróci funkcja i w razie potrzeby wyświetli odpowiedni komunikat, np. „brak miejsca na dysku”, „błędne znaki w nazwie pliku” itp.
+      </p>
+   
+      <h2 class="article__title">Zastosowanie</h2>
+   
+      <p class="article__text">
+         Obecnie z jądra Linuksa korzysta wiele urządzeń i systemów, są wśród nich gadżety elektroniczne, telewizory, sprzęt sieciowy, superkomputery, systemy notowań na największych giełdach świata, systemy kontroli lotów, oprogramowanie sterujące elektrowniami. O jądro Linuksa oparto masowo stosowany w urządzeniach mobilnych system Android. Kod Linuksa udostępniono na zasadach licencji GNU General Public License (GPL), w skrócie oznacza to, że wolno rozpowszechniać, modyfikować, a nawet sprzedawać kopie jądra pod dwoma warunkami. Należy zachować taką samą licencję (GPL – tzw. licencja wirusowa) i udostępnić swój kod. Taki model bardzo sprzyja rozwojowi i jednocześnie chroni kod przed zaborczym potraktowaniem przez firmy komercyjne, pozwala także na osiąganie dochodów przez programistów, np. poprzez pisanie modułów jądra na zamówienie. Wolne oprogramowanie może przynosić spore pieniądze, Linus Torvalds, choć pozostał skromnym człowiekiem, dzięki Linuksowi stał się milionerem.
+      </p>
+    </article>
+
+    <footer class="footer">
+        <p class="footer__text">
+            Poznaj Linuxa!- najlepsze darmowe forum o Linuxie. Strona w sieci od 2021r. &copy; Wszelkie prawa
+            zastrzeżone.
+        </p>
+    </footer>
+</body>
+</html>
