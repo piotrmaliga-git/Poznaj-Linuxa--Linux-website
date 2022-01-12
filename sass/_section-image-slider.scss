@@ -5,7 +5,7 @@
 	border: 2px solid $dark-gray-o8;
 	overflow: hidden;
 	position: relative;
-	margin-bottom: 30px;
+	margin-bottom: $margin-b;
    .section__gallery-slider{
       display: flex;
       object-fit: cover;

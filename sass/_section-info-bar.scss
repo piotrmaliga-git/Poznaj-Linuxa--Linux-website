@@ -2,8 +2,8 @@
 	width: 50%;
 	margin-inline: auto;
 	background-color: $my-green-o9;
-	margin-top: 130px;
-	margin-bottom: 30px;
+	margin-top: $margin-b + 100px;
+	margin-bottom: $margin-b;
 	border-radius: 8px;
 	.section__info-bar-left{
 		display: block;
