@@ -1,0 +1,30 @@
+.section__info-bar{
+	width: 50%;
+	margin: auto auto;
+	background-color: rgb(18, 136, 112);
+	margin-top: 130px;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	.section__info-bar-left{
+		display: block;
+		float: left;
+		width: 22%;
+		text-align: center;
+		height: auto;
+		padding: 30px;
+		border-right: 2px dotted #fff;
+		margin: auto auto;
+	}
+	.section__info-bar-right{
+		float: left;
+		padding: 30px;
+		width: 78%;
+		color: #fff;
+		height: auto;
+		font-size: 17px;
+		text-align: justify;
+		.section__info-bar-right-title {
+			margin-bottom: 15px;
+		}
+	}
+}
