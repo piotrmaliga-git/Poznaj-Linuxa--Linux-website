@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=, initial-scale=1.0">
+   <meta name="descrition" content="Poznaj Linuxa!" />
+   <meta name="keywords" content="Linux, Dlaczego Linux?, Historia, instalacja, Komendy, Terminal, Bash, Twórca, Dystrybucje, Linus Torvalds" />
+   <meta name="author" content="Piotr Maliga" />
+   <title>Poznaj Linuxa!</title>
+
+   <link rel="stylesheet" href="css/style.css">
+
+   <link rel="icon" type="image/png" href="img/icon/favicon.png">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;800&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+   integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+   <div class="body__bg-image"></div>
+
+   <nav class="nav">
+        <div class="nav__logo">
+            <a class="nav__logo-title" href="index.html">Poznaj Linuxa!</a>
+        </div>
+        <ul class="nav__links"> 
+            <li class="nav__item">
+                <a class="nav__link" href="index.html">Dlaczego Linux?</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="history.html">Historia</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="creator.html">Twórca</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="distributions.html">Dystrybucje</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link-active" href="installation.html">Instalacja</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="commands.html">Komendy</a>
+            </li>
+        </ul>
+        <div class="nav__burger-menu">
+            <div class="burger-menu--line1"></div>
+            <div class="burger-menu--line2"></div>
+            <div class="burger-menu--line3"></div>
+        </div>
+        <script src="js/nav-bar.js"></script>
+    </nav>
+
+    <section class="section">
+        <div class="section__info-bar">
+            <div class="section__info-bar-left">
+                <img class="section__info-bar-left-image" src="img/linux.png" alt="Brak zdjęcia zgłoś administratorowi." />
+            </div>
+            <div class="section__info-bar-right">
+                <h1 class="section__info-bar-right-title">Kilka słów o projekcie</h1>
+                <p class="section__info-bar-right-text">
+                    „Kiedy mówisz „Napisałem program, który wywalił Windows”, ludzie gapią się na ciebie głupkowato i
+                    mówią „Hej, dostałem je wraz z systemem, *za darmo*.«“ - Powiedział to Linus Torvalds, twórca
+                    Linuxa. Zapraszam do zapoznania się z wirtyną, dzięki której dowiesz sie co to jest Linux i
+                    wybierzesz dystrybucję dla siebie!
+                </p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    
+        <div class="section__gallery">
+            <div class="section__gallery-slider">
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g10.png" id="last" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g1.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g2.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g3.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g4.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g5.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g6.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g7.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g8.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g9.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g10.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g1.jpg" id="first" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+            </div>
+    
+            <i class="fas fa-chevron-left" id="previous"></i>
+            <i class="fas fa-chevron-right" id="next"></i>
+        
+        </div>
+        <script src="js/image-slider.js"></script>
+    </section>
+
+    <article class="article">
+      <h1 class="article__maim-title">Pierwsza instalacja Linuksa</h1>
+
+   <div class="article__dotted-line"></div>
+
+   <h2 class="article__title">Pobieranie pliku ISO</h2>
+
+   <p class="article__text">
+      Jeżeli już podjąłeś decyzję, którą dystrybucję (wersję) Linuksa chcesz zainstalować, pobierz plik obrazu ze strony internetowej projektu danej dystrybucji. Jest to plik z rozszerzeniem ISO i można go wgrać na płytę (najczęściej DVD) lub pendrive. Przy tym ostatnim należy pamiętać, że proces wgrywania musi odbyć się w specjalnym programie zmieniającym pendrive na dysk bootowalny (samouruchamiający się po restarcie komputera). I jeszcze jedno: przy pobieraniu obrazu ISO ze strony należy zwrócić uwagę na wersję architektury komputera. Najczęściej to będzie wersja 64-bitowa. Tylko starsze komputery będą wymagały wersji 32-bitowej.
+   </p>
+
+   <h2 class="article__title">Najpierw oswój się z instalacją Linuksa</h2>
+
+   <p class="article__text">
+      Zanim zdecydujesz się na zastąpienie bieżącego systemu operacyjnego systemem Linux, zainstaluj go sobie najpierw na maszynie wirtualnej. Spośród programów do tworzenia tego typu maszyn zdecydowanie wszystkim doradzam <a class="article__links" href="https://www.virtualbox.org/" target="_blank">VirtualBox</a>. Zobacz, jak przebiega proces uruchamiania Linuksa z płyty (wersje instalacyjne systemu są zarazem Linuksem samym w sobie, z wieloma narzędziami zainstalowanymi domyślnie). W następnej kolejności spróbuj zainstalować Linuksa (na maszynie wirtualnej). Najlepiej na początku wybierz opcje domyślne i postępuj według instrukcji. Za przykład posłuży nam instalacja <a class="article__links" href="https://linuxmint.com/" target="_blank">Linux Mint</a>, przez niektórych uważana za najlepszego pingwina na początek.
+   </p>
+
+   <figure>
+      <img class="article__image-installation" src="img/installation/i1.png" alt="Brak zdjęcia zgłoś administratorowi.">
+      <figcaption>Okno wyboru języka w programie instalacyjnym</figcaption>
+   </figure>
+
+   <p class="article__text">
+      Przy niektórych dystrybucjach komputer zapyta, czy chcesz zainstalować oprogramowanie podmiotów trzecich. Jeżeli tej opcji nie zaznaczysz, to nie będziesz mógł zainstalować sterowników do urządzeń typu: karta WiFi, czy karta grafiki lub będziesz je musiał doinstalowywać później ręcznie.
+   </p>
+
+   <figure>
+      <img class="article__image-installation" src="img/installation/i2.png" alt="Brak zdjęcia zgłoś administratorowi.">
+      <figcaption>Wybór oprogramowania podmiotów trzecich</figcaption>
+   </figure>
+
+   <p class="article__text">
+      Większość programów instalacyjnych Linuksa ma możliwość wybrania instalacji z ustawieniami domyślnymi, dotyczących głównie sposobu partycjonowania dysku.
+   </p>
+
+   <figure>
+      <img class="article__image-installation" src="img/installation/i3.png" alt="Brak zdjęcia zgłoś administratorowi.">
+      <figcaption>Wybór rodzaju instalacji w programie instalacyjnym</figcaption>
+   </figure>
+
+   <h2 class="article__title">Instalacja Linuksa na swoim komputerze</h2>
+
+   <p class="article__text">
+      Jak już nabierzesz wprawy, możesz przystąpić do jego instalacji na swoim komputerze. Może warto dla bezpieczeństwa sporządzić kopię zapasową twojego dysku. Informacje, jak to zrobić, na pewno znajdziesz w internecie. Proces ten niestety nie jest prosty.
+      <br/>
+      <br/>
+      Jak już wcześniej napisałem, domyślne ustawienia instalacyjne są wystarczające dla większości użytkowników. Za jakiś czas, po zaznajomieniu z Linuksem, można przeprowadzić ponownie instalację systemu zmieniając ustawienia instalacyjne, ręcznie zmienić sposób partycjonowania dysku.
+      <br/>
+      <br/>
+      W trakcie instalacji komputer może jeszcze zapytać o strefę czasową, wybranie rodzaju klawiatury i użytkownika. Często pierwszy użytkownik jest zarazem administratorem systemu (np. w Linux Mint).
+   </p>
+
+   <figure>
+      <img class="article__image-installation" src="img/installation/i4.png" alt="Brak zdjęcia zgłoś administratorowi.">
+      <figcaption>Wybór pierwszego użytkownika komputera</figcaption>
+   </figure>
+
+   <p class="article__text">
+      Po zakończeniu instalacji, komputer poprosi cię o wyciągnięcie nośnika z wersją instalacyjną i nastąpi restart systemu.
+   </p>
+
+   <h2 class="article__title">Ręczne partycjonowanie</h2>
+
+   <p class="article__text">
+      W pierwszej kolejności należy w programie instalacyjnym, w odpowiednim do tego okienku, usunąć wszystkie partycje. Ja również, chyba tylko dla lepszego samopoczucia ;), usuwam również tablicę partycji i tworzę na nowo. Niektóre nowo tworzone partycje będą miały tzw. punkt montowania: /, /home. Przy okazji będzie też trzeba wybrać rodzaj systemu plików, jakim ma komputer sformatować wybraną partycję.
+   </p>
+
+   <figure>
+      <img class="article__image-installation" src="img/installation/i5.png" alt="Brak zdjęcia zgłoś administratorowi.">
+      <figcaption>Etap partycjonowania dysku</figcaption>
+   </figure>
+
+   <p class="article__text">
+      Zanim pójdziesz dalej, to przede wszystkim musisz pomyśleć o sposobie partycjonowania dysku. Chodzi tu o to, ile ma być przeznaczonego miejsca na system, dokumenty, itp. Należałoby zdecydować, czy tworzyć oddzielne partycje na nie przeznaczone i ile im miejsca na dysku poświęcić. Należy wtedy odpowiedzieć trzy pytania:
+   </p>
+
+   <ol class="article__list-2">
+      <li class="article__list-item-2">
+         Czy dodawać partycję wymiany (swap; inaczej stronnicowania)? jeżeli tak, to ile miejsca jej przydzielić?
+      </li>
+      <li class="article__list-item-2">
+         Ile miejsca będzie wymagało dodanie partycji głównej / (root), gdzie będzie instalowany twój system?
+      </li>
+      <li class="article__list-item-2">
+         Czy rozdzielić katalog domowy /home i ile przydzielić mu miejsca?</li>
+   </ol>
+
+   <p class="article__text">
+      Zanim przejdziemy do odpowiedzi na te pytania, należy zdawać sobie sprawę, że ilość miejsca przydzielanego na poszczególne partycje będzie niejednokrotnie przydzielana z uwzględnieniem kompromisu. Inaczej będzie, jeżeli masz tani komputerek z pamięcią 32GB przeznaczoną na system, inaczej jeżeli masz dysk SSD o pojemności większej, nie wspominając już o dyskach HDD 500GB, 1TB lub większych. Przy tych pierwszych będziesz musiał się trochę namęczyć.
+   </p>
+
+   <ul class="article__list">
+      <li>
+         <b>Czy dodawać partycję swap?</b>
+         <p class="article__text">
+            Co to w ogóle jest przestrzeń wymiany? Jeżeli masz mało pamięci RAM w komputerze a twój system i uruchomione programy więcej zajmują, komputer się ratuje przestrzenią wymiany. W pewnym sensie jest to zatem przedłużenie twojej pamięci RAM z użyciem dysku. Należy zdawać sobie sprawę, że jeżeli komputer używa przestrzeni wymiany, to działa to wolniej od operacji wykonywanych w RAM. Skutkuje to spowolnieniem komputera (nawet znacznym).
+         <br/>
+         <br/>
+            Czy w ogóle przestrzeń wymiany jest wymagana? Technicznie - da się zainstalować system Linux bez przestrzeni wymiany. Ktoś może przecież twierdzić, że ma tyle pamięci RAM, że mu spokojnie wystarczy. Jednak spotkałem się w internecie z opiniami, że niektóre programy z niej korzystają i mogą się nie włączyć lub nie działać stabilnie. Ponadto należy zdawać sobie sprawę, że do hibernacji systemu przestrzeń ta jest wymagana.
+         <br/>
+         <br/>
+            W nowszych systemach Linux możliwe jest dokonanie wyboru, czy przestrzeń wymiany przechowywana jest w postaci oddzielnej partycji, czy w postaci pliku. Zalety stosowania pliku wymiany są następujące: zajmuje mniej miejsca na dysku (co może być decydujące dla komputerów z małymi dyskami), można dodać go po instalacji systemu, kiedy mamy już zapełniony cały dysk partycjami i można zmieniać jego rozmiar. Niestety, kiedy pada partycja główna /, pada również plik wymiany. Może on być również bardziej podatny na ataki szkodliwych programów (np. wirusów). Te argumenty przeważają, kiedy ja instaluję system i jakoś wydaje mi się bezpieczniej dodawać partycję wymiany w trakcie instalacji systemu.
+         <br/>
+         <br/>
+            Pozostaje tylko pytanie: ile miejsca na dysku jej poświęcić? Odpowiedź nie jest jednoznaczna. Jeżeli komputer ma mało pamięci RAM, trzeba będzie kompensować to partycją wymiany. Jeżeli korzystamy z programów "pamięciożernych", takich jak Blender lub inne programy zaawansowane, to również będziemy potrzebowali więcej pamięci. Moim zdaniem istotne jest, ile pamięci rekomenduje twórca dystrybucji Linuksa (chodzi mi o ilość pamięci rekomendowanej, nie minimalnej!). Tę ilość zawsze mnożę razy 2 lub nawet 3 (co pozwala mi być jeszcze bardziej pewnym, że mi jej nie zabraknie). Należy jednak podkreślić, że miałem zawsze dyski bardziej pojemne, co pozwalało mi na pewną swobodę. Przykładowo: jeżeli twórca rekomenduje 2GB pamięci RAM i mamy tyle samo w komputerze, to niech partycja wymiany zajmie dodatkowe 2GB lub nawet 4GB, według wzorów:
+            Wersja z mnożnikiem 2: 2GB RAM + 2GB swap = 4GB = 2 * 2GB pamięci rekomendowanej,
+            Wersja z mnożnikiem 3: 2GB RAM + 4GB swap = 6GB = 3 * 2GB pamięci rekomendowanej.
+            Jeżeli masz wystarczającą ilość pamięci RAM, np. 8 lub 16GB, to dołóż 1 lub 2GB dla partycji. Jeżeli jednak będziesz korzystał z opcji hibernacji, może warto rozważyć rozmiar pamięci swap taki sam lub przewyższający rozmiar RAM. Ja osobiście zrezygnowałem z tej opcji, bo system i tak szybko mi się ładuje.
+         </p>
+      </li>
+      <li>
+         <b>Ile miejsca dla partycji /(root)?</b>
+         <p class="article__text">
+            I w tym przypadku nie ma jednoznacznej odpowiedzi. Tu również będzie ważne, ile rekomenduje twórca dystrybucji. Należy jednak pamiętać, że każda doinstalowana aplikacja (te z repozytoriów w większości nie zajmują wiele) uszczupla ilość dostępnej pamięci na partycji. Jeżeli macie duże wymagania, będziecie poznawać świat Linuksa, a co za tym idzie - instalowali wiele nowych programów, a dysk macie pojemny, to dodajcie do wielkości rekomendowanej kilkadziesiąt GB.
+         </p>
+      </li>
+      <li>
+         <b>Czy i ile miejsca dla partycji /home?</b>
+
+         <p class="article__text">
+            Katalog /home (katalog domowy) to miejsce, gdzie będziesz przechowywał swoje dokumenty. Tworzenie tego katalogu w formie oddzielnej partycji nie jest wymagane. Jeżeli nie utworzysz jej, komputer doda automatycznie dodatkowy katalog home na partycji /. Należy pamiętać, że jeżeli w trakcie instalacji Linuksa utworzysz oddzielną partycję, to po jego instalacji, partycja ta będzie widoczna jako taki sam podkatalog home katalogu głównego / a nie jako oddzielny dysk.
+            <br/>
+            <br/>
+            Moim zdaniem, utworzenie oddzielnej partycji dla katalogu domowego daje same korzyści. Jeżeli twój system z jakiegoś powodu padnie (co się rzadko zdarza bez ingerencji użytkownika ale musimy to również brać pod uwagę - może to być przecież uszkodzenie całej partycji), to reinstalacja systemu będzie się sprowadzała do sformatowania jedynie partycji /. Partycja /home pozostanie nienaruszona. Oczywiście tak się stanie, jeżeli dysk będzie nieuszkodzony. Tutaj przydatne będzie, jeżeli w komputerze będziemy mieli dwa dyski. Marzeniem byłoby, żeby jeden z nich był SSD. Wtedy najlepiej na dysku SSD zainstalować partycje swap i partycję / a drugi dysk poświęcić cały na partycję /home.
+         </p>
+      </li>
+   </ul>
+
+   <p class="article__text-small">
+      Jeżeli zdecydowaliśmy się na partycję wymiany, to dodajemy ją wybierając odpowiedniej opcji.
+   </p>
+
+   <figure>
+      <img class="article__image-installation" src="img/installation/i6.png" alt="Brak zdjęcia zgłoś administratorowi.">
+      <figcaption>Dodawanie partycji wymiany</figcaption>
+   </figure>
+
+   <p class="article__text">
+      Następnie dodajemy partycję z punktem montowania /, o rozmiarze ustalonym przez siebie. Najlepiej wybrać, moim zdaniem najlepszy w Linuksie, system plików ext4 z księgowaniem. 
+   </p>
+
+   <figure>
+      <img class="article__image-installation" src="img/installation/i7.png" alt="Brak zdjęcia zgłoś administratorowi.">
+      <figcaption>Dodawanie partycji z punktem montowania</figcaption>
+   </figure>
+
+   <p class="article__text">
+      Jeżeli zdecydujemy się na dodatkową partycję z punktem montowania /home, to dodajemy ją na pozostałym miejscu. Jeżeli nie decydujemy się na ten krok, partycja / powinna zajmować już całe wolne miejsce.
+   </p>
+
+   <figure>
+      <img class="article__image-installation" src="img/installation/i8.png" alt="Brak zdjęcia zgłoś administratorowi.">
+      <figcaption>Dodanie partycji z punktem montowania /home</figcaption>
+   </figure>
+
+   <p class="article__text">
+      Jeżeli utworzyliśmy wszystkie partycje, należy jeszcze raz wszystko sprawdzić, zanim przejdziemy do następnego kroku. Po tym czasie już nie będzie powrotu...
+   </p>
+
+   <figure>
+      <img class="article__image-installation" src="img/installation/i9.png" alt="Brak zdjęcia zgłoś administratorowi.">
+      <figcaption>Widok okna do partycjonowania po utworzeniu partycji</figcaption>
+   </figure>
+
+   <h2 class="article__title">Uwagi dodatkowe</h2>
+
+   <p class="article__text">
+      Przy instalacji Linuksa na twoim komputerze należy pamiętać o pewnych dodatkowych szczegółach:
+   </p>
+   <ul class="article__list-3">
+      <li class="article__list-item-3">
+         Jeżeli z jakiegoś powodu masz potrzebę zachowania systemu Windows, można mieć zainstalowane dwa systemy na jednym komputerze (tzw. Dual Boot). Sam również skorzystałem z takiego rozwiązania na jednym z moich komputerów. Pamiętaj jednak, że zawsze nie będzie to pewne rozwiązanie (znaczy stabilne). Mogą się pojawić problemy z dostępnością do współdzielonych obszarów na dysku, zegarem systemowym, itp. Najlepiej jest, jak Linuksa instaluje się jako jedyny system. Jeżeli z jakiegoś powodu potrzebny jest system Windows, można go później uruchamiać pod Linuksem jako maszynę wirtualną. Jeżeli dostanę jakiś sygnał od was, napiszę w oddzielnym artykule, jak sobie z tym poradziłem.
+      </li>
+      <li class="article__list-item-3">
+         Przed instalacją dowiedz się w internecie, czy nie ma jakiś problemów z twoim sprzętem pod Linuksem. Pamiętaj, żeby te wiadomości były aktualne, bo obecnie może nie być już tych problemów, co przed kilkoma miesiącami. Prawda jest taka, że przekonasz się dopiero wtedy, kiedy sam zainstalujesz Linuksa i zaczniesz sam drążyć tę sprawę. Na pocieszenie mogę ci powiedzieć, że sprzęt kilkuletni (3-5 letni jako uznawany za najbardziej optymalny do instalacji Linuksa) najprawdopodobniej nie sprawi żadnych problemów.
+      </li>
+      <li class="article__list-item-3">
+         Komputery nabierające już wartości muzealnej wymagają specyficznych dystrybucji Linuksa. Jeżeli Linux Mint MATE będzie za "ciężki" na twój komputer, wybierz np. Linux Manjaro lub Puppy Linux. Ten pierwszy jest bardziej przystępny dla początkujących.
+      </li>
+      <li class="article__list-item-3">
+         Proces instalacji na komputerach z Biosem EFI lub UEFI może być utrudniony.
+      </li>
+   </ul>
+   
+   <p class="article__text">
+      Po zainstalowaniu Linuksa oswój się z systemem. Poczytaj podręcznik użytkownika (na chwilę obecną dostępny jest w wersji polskiej dla Linux Mint Cinnamon ale niewiele się różni od MATE) lub poradniki dostępne w internecie. Zacznij od prostej obsługi systemu a następnie powoli wkraczaj w świat Linuksa dla użytkowników bardziej zaawansowanych. Nie załamuj się niepowodzeniami, są strony internetowe, takie jak ta i fora, gdzie mogą ci pomóc.
+   </p>
+    </article>
+
+    <footer class="footer">
+        <p class="footer__text">
+            Poznaj Linuxa!- najlepsze darmowe forum o Linuxie. Strona w sieci od 2021r. &copy; Wszelkie prawa
+            zastrzeżone.
+        </p>
+    </footer>
+</body>
+</html>
