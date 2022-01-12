@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=, initial-scale=1.0">
+   <meta name="descrition" content="Poznaj Linuxa!" />
+   <meta name="keywords" content="Linux, Dlaczego Linux?, Historia, instalacja, Komendy, Terminal, Bash, Twórca, Dystrybucje, Linus Torvalds" />
+   <meta name="author" content="Piotr Maliga" />
+   <title>Poznaj Linuxa!</title>
+
+   <link rel="stylesheet" href="css/style.css">
+
+   <link rel="icon" type="image/png" href="img/icon/favicon.png">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;800&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+   integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+   <div class="body__bg-image"></div>
+
+   <nav class="nav">
+        <div class="nav__logo">
+            <a class="nav__logo-title" href="index.html">Poznaj Linuxa!</a>
+        </div>
+        <ul class="nav__links"> 
+            <li class="nav__item">
+                <a class="nav__link" href="index.html">Dlaczego Linux?</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="history.html">Historia</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="creator.html">Twórca</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link-active" href="distributions.html">Dystrybucje</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="installation.html">Instalacja</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="commands.html">Komendy</a>
+            </li>
+        </ul>
+        <div class="nav__burger-menu">
+            <div class="burger-menu--line1"></div>
+            <div class="burger-menu--line2"></div>
+            <div class="burger-menu--line3"></div>
+        </div>
+        <script src="js/nav-bar.js"></script>
+    </nav>
+
+    <section class="section">
+        <div class="section__info-bar">
+            <div class="section__info-bar-left">
+                <img class="section__info-bar-left-image" src="img/linux.png" alt="Brak zdjęcia zgłoś administratorowi." />
+            </div>
+            <div class="section__info-bar-right">
+                <h1 class="section__info-bar-right-title">Kilka słów o projekcie</h1>
+                <p class="section__info-bar-right-text">
+                    „Kiedy mówisz „Napisałem program, który wywalił Windows”, ludzie gapią się na ciebie głupkowato i
+                    mówią „Hej, dostałem je wraz z systemem, *za darmo*.«“ - Powiedział to Linus Torvalds, twórca
+                    Linuxa. Zapraszam do zapoznania się z wirtyną, dzięki której dowiesz sie co to jest Linux i
+                    wybierzesz dystrybucję dla siebie!
+                </p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    
+        <div class="section__gallery">
+            <div class="section__gallery-slider">
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g10.png" id="last" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g1.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g2.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g3.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g4.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g5.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g6.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g7.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g8.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g9.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g10.png" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+                <div class="section__gallery-item">
+                    <img class="section__gallery-image" src="img/gallery/g1.jpg" id="first" alt="Brak zdjęcia zgłoś administratorowi.">
+                </div>
+            </div>
+    
+            <i class="fas fa-chevron-left" id="previous"></i>
+            <i class="fas fa-chevron-right" id="next"></i>
+        
+        </div>
+        <script src="js/image-slider.js"></script>
+    </section>
+
+    <article class="article">
+      <h1 class="article__maim-title">Dystrybucje - Którą wybrać?</h1>
+
+      <div class="article__dotted-line"></div>
+
+      <p class="article__text">
+         Dystrybucja Linuksa to uniksopodobny kompletny system operacyjny zbudowany na bazie jądra Linux. Znakomita większość dystrybucji zawiera dużo elementów projektu GNU, co sprawia, że są one dystrybucjami GNU/Linuksa. W skład dystrybucji, oprócz samego jądra, wchodzą podstawowe programy i usługi takie, jak powłoka, skrypty startowe, narzędzia konfiguracyjne, a także często duży zestaw aplikacji użytkowych. W obrębie dystrybucji używana jest jednolita organizacja plików konfiguracyjnych oraz wspólny mechanizm instalowania nowych aplikacji. Niekiedy terminem „dystrybucja” określa się także systemy zbudowane na bazie jąder innych niż Linux (np. GNU Hurd, czy jądro FreeBSD); szczególnie można tutaj wyróżnić klony dystrybucji uniksowych (np. Debian).
+      </p>
+
+      <figure>
+         <img class="article__image" src="img/tab.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+
+      <h2 class="article__title">10 najpopularniejszych dystrybucji Linuksa.</h2>
+
+      <p class="article__text">
+         Na którą dystrybucję Linuksa postawić? – to podstawowe pytanie, jakie zadają sobie ci, którzy szukają alternatywy dla Windowsa czy MacOS. W dokonaniu właściwego wyboru pomocne bywają rankingi i statystyki. Serwis <a class="article__links" href="https://distrowatch.com/" target="_blank">DistroWatch</a> regularnie <b>monitoruje popularność poszczególnych wersji Linuksa</b>. Na jego podstawie publikujemy pierwszą piątkę dystrybucji, które cieszą się największym uznaniem użytkowników.
+      </p>
+
+      <h3 class="article__title-smaller">10. Antergos</h3>
+
+      <p class="article__text">
+         To dystrybucja Linuxa zbudowana na podstawie Arch Linux. Swoją przygodę z użytkownikami rozpoczęła w 2012 roku pod nazwą Cinnarch. W 2013 roku nazwę zmieniono na Antergos, co w tłumaczeniu oznacza „przodkowie”. Ty, co wyróżnia ten system jest możliwość wyboru środowiska graficznego podczas instalacji. To samo dotyczy potrzebnych pakietów i funkcji. Dzięki temu użytkownik sam decyduje, czy zaraz po uruchomieniu chce korzystać z gotowego pakietu LibreOffice czy z bazy programów dostępnych w repozytoriach AUR. W ten sposób każdy może lepiej dostosować system do swoich potrzeb.
+      </p>
+
+      <figure>
+         <img class="article__image-logo" src="img/logos/Antergos.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+
+      <h3 class="article__title-smaller">9. openSUSE</h3>
+
+      <p class="article__text">
+         To stabilna i wszechstronna dystrybucja przeznaczona zarówno dla początkujących jak i zaawansowanych użytkowników. Jej zaletą jest kilkadziesiąt graficznych modułów umożliwiających konfigurację systemu. Koncentruje się nie tylko na łatwości użytkowania, ale również na bezpieczeństwie. Pierwsza wersja tej dystrybucji nosiła nazwę S.u.S.E. (niem. Software- und System-Entwicklungsgesellschaft), w 1998 została zmieniona na SUSE. Dystrybucja korzysta z menedżera pakietów YAST i pakietów RPM. Płyta instalacyjna zawiera m.in. Firefox, LibreOffice i wiele innych programów. Użytkownik ma do wyboru kolekcję pakietów, które może zainstalować za pomocą przyjaznego kreatora.
+      </p>
+
+      <figure>
+         <img class="article__image-logo-2" src="img/logos/OpenSUSE.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+
+      <h3 class="article__title-smaller">8. Fedora</h3>
+
+      <p class="article__text">
+         Dystrybucja jest kontynuacją Red Hat Linux rozwijaną przez Fedora Project, natomiast finansowano wspieraną przez Red Hat. Celem jej twórców było stworzenie użytecznego programu operacyjnego w oparciu o wolne oprogramowanie rozpowszechniane na licencji GNU GPL. W ramach tej dystrybucji użytkownik uzyska pełne wsparcie dla druku 3D oraz podstawowy pakiet programów. <b>Co ciekawe, Fedora to system, z którego korzysta twórca Linuksa - Linus Torvalds</b>.
+      </p>
+
+      <figure>
+         <img class="article__image-logo-2" src="img/logos/Fedora.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+
+      <h3 class="article__title-smaller">7. Solus</h3>
+
+      <p class="article__text">
+         To dystrybucja, która jest tworzona od zera przez grupę entuzjastów, co oznacza, że nie ma nad sobą nadrzędnych systemów, które narzucałyby swoje aktualizacje. Przeznaczona jest głównie dla użytkowników komputerów stacjonarnych. Jej twórcy stawiają przede wszystkim na łatwość użytkowania i atrakcyjny interfejs. Co istotne, system działa „out of the box” i jest gotowy do użytkowania zaraz pop instalacji.
+      </p>
+
+      <figure>
+         <img class="article__image-logo" src="img/logos/Solus.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+
+      <h3 class="article__title-smaller">6. MX Linux</h3>
+
+      <p class="article__text">
+         To projekt, który jest efektem współpracy pomiędzy developerami i społecznością Mepis i AntiX. Dystrybucja bazuje na Debianie, co gwarantuje jej stabilność. Dodatkowo korzysta w repozytoriów Debian Backports i Mepis Community. MX charakteryzuje się prostą konfiguracją i solidnym wykonaniem. Domyślnie system używa pulpitu Xfce. Zaletą jest to, że w razie problemów można uzyskać pomoc na polskojęzycznych forach poświęconych Debianowi.
+      </p>
+
+      <figure>
+         <img class="article__image-logo-2" src="img/logos/MX_Linux.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+
+      <h3 class="article__title-smaller">5. Debian</h3>
+
+      <p class="article__text">
+         Jedna z najstarszych dystrybucji Linuksa, która w dużej części została oparta na oprogramowaniu z projektu GNU. Projekt jest realizowany przez rzeszę ochotników z całego świata. <b>Debian ma opinię stabilnego systemu o wysokiej jakości, łatwego do aktualizacji</b>. Jego twórcy kładą ogromny nacisk na bezpieczeństwo, dlatego nowe wersje systemu pojawiają się rzadko a w ich wydawaniu często pojawiają się opóźnienia. Jest to także jedna z najbardziej rozbudowanych wersji Linuksa, która w swojej stabilnej wersji posiada około 20 000 pakietów. Nazwa tej dystrybucji pochodzi od imion jej twórcy (Ian Murdock) oraz jego ówczesnej dziewczyny Debry Lynn.
+      </p>
+
+      <figure>
+         <img class="article__image-logo-2" src="img/logos/Debian.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+
+      <h3 class="article__title-smaller">4. Elementary OS</h3>
+
+      <p class="article__text">
+         To chyba najbardziej atrakcyjna wizualnie dystrybucja Linuksa, której stylistyka przypadnie do gustu miłośnikom Apple'a. Jej fundamentalną osią jest środowisko graficzne o nazwie Pantheon, które kładzie nacisk na łatwość obsługi zaraz po instalacji, funkcjonalność oraz minimalizację przystosowywania i ręcznej zmiany ustawień systemu. To propozycja dla osób, które lubią prostotę. Brak przeładowania funkcjami i programami sprawia, że system sprawdzi się w codziennym użytkowaniu.
+      </p>
+
+      <figure>
+         <img class="article__image-logo-2" src="img/logos/Elementary-OS.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+
+      <h3 class="article__title-smaller">3. Ubuntu</h3>
+
+      <p class="article__text">
+         To propozycja dla początkujących użytkowników. Swoją popularność zawdzięcza przede wszystkim łatwości obsługi. Dystrybucja ta jest kompletnym systemem operacyjnym do zastosowań biurowych i domowych. Podobny do Windowsa rozkład opcji i funkcji ułatwia nowym użytkownikom dostosowanie się do systemu. Twórca Ubuntu – firma Cananical – zadbał o automatyczne aktualizacje, dzięki którym mamy gwarancję, że sprzęt z tym systemem zawsze korzysta z najnowszych wersji aplikacji. Dodatkową zaletą jest duża i pomocna społeczność. Nazwa tej dystrybucji pochodzi o starego afrykańskiego słowa oznaczającego „człowieczeństwo dla wszystkich”.
+      </p>
+
+      <figure>
+         <img class="article__image-logo" src="img/logos/Ubuntu.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+
+      <h3 class="article__title-smaller">2. Linux Mint</h3>
+
+      <p class="article__text">
+         <b>System bazujący na Ubuntu oraz Debianie przeznaczony dla początkujących użytkowników</b>. Dystrybucja wykorzystuje także zamknięte oprogramowanie, co znacznie ułatwia pracę z nią. Jej największymi zaletami jest prostota użytkowania, dostęp do dużego pakietu oprogramowania oraz pełne wsparcie dostępne zaraz po instalacji. Na standardowej płycie instalacyjnej znajduje się większość najpopularniejszego własnościowego oprogramowania, jak Adobe Flash czy Java a także kompletny pakiet kodeków audio i wideo, który pozwala odtwarzać popularne pliki bez konieczności instalowania dodatkowych aplikacji. Dodatkowym atutem jest przyjazny interfejs oraz możliwość zmiany wielu graficznych nakładek. Mimo że dystrybucja ta opiera się na Ubuntu, twórcy Mint odcinają się od jego ideologii.
+      </p>
+
+      <figure>
+         <img class="article__image-logo-2" src="img/logos/Linux_Mint.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+
+      <h3 class="article__title-smaller">1. Manjaro Linux</h3>
+
+      <p class="article__text">
+         To dystrybucja oparta na Arch Linux, która zyskuje popularność dzięki szybkości i niskim wymaganiom. <b>System ten ma dwie wersje, które wspierają dwa środowiska graficzne - XFCE i KDE Plasma</b>. Tym, co je różni są środowisko graficzne i prędkość działania. Repozytorium, do którego użytkownicy mają dostęp do instalacji to AUR. Zapewnia on wysoką stabilność i jest kompatybilne z większością sprzętu. Istnieje również możliwość korzystania z menadżera pakietów Arch Linux o nazwie Pacman. Nazwa samej dystrybucji pochodzi od góry Kilimandżaro, na którą udało się wspiąć Rolandowi Singerowi – jednemu z twórców Manjaro. Dystrybucja skierowana do bardziej doświadczonych użytkowników.
+         <br/>
+         <br/>
+         Ogromna liczba dystrybucji Linuksa może przyprawiać o ból głowy. Tym bardziej, że różnice między nimi bywają subtelne i wybór najlepszej opcji nie zawsze jest oczywisty. Mamy nadzieję, że powyższe zestawienie okaże się pomocne w dopasowaniu wersji tego systemu operacyjnego do swoich umiejętności i wymagań.
+      </p>
+
+      <figure>
+         <img class="article__image-logo" src="img/logos/Manjaro-Linux.png" alt="Brak zdjęcia zgłoś administratorowi.">
+         <figcaption></figcaption>
+      </figure>
+    </article>
+
+    <footer class="footer">
+        <p class="footer__text">
+            Poznaj Linuxa!- najlepsze darmowe forum o Linuxie. Strona w sieci od 2021r. &copy; Wszelkie prawa
+            zastrzeżone.
+        </p>
+    </footer>
+</body>
+</html>
