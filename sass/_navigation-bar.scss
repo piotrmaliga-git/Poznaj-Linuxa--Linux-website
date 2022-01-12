@@ -1,0 +1,81 @@
+.nav{
+	display: flex;
+	position: fixed;
+   align-items: center;
+   justify-content: space-between;
+	width: 100%;
+	min-height: 8vh;
+	top: 0;
+	left: 0;
+   padding: 0 150px 0 150px;
+   z-index: 99;
+	background-color: rgba(68, 68, 68, 0.8);
+   &__logo-title{
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: bold;
+   }
+   &__links{
+      display: flex;
+      justify-content: space-around;
+      width: 35%;
+   }
+   &__link{
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: 3px;
+      font-size: 15.5px;
+      transition: all 0.5s ease;
+   }
+   &__link:hover{
+      color: #128870;
+      transition: all 0.5s ease;
+   }
+   &__link-active{
+      color: #128870;
+      letter-spacing: 3px;
+      text-decoration: none;
+      cursor: default;
+   }
+   &__item{
+      list-style: none;
+      position: relative;
+   }
+}
+
+.nav__burger-menu{
+   display: none;
+   cursor: pointer;
+}
+.nav__burger-menu div{
+   width: 25px;
+   height: 3px;
+   background-color: #fff;
+   border-radius: 10px;
+   margin: 5px;
+   transition: all 0.3s ease;
+}
+
+@keyframes navLinkFade {
+	from{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.toggle .burger-menu--line1{	
+	transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .burger-menu--line2{
+	opacity: 0;
+}
+.toggle .burger-menu--line3{
+	transform: rotate(45deg) translate(-5px,-6px);
+}

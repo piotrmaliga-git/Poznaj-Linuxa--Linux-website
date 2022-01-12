@@ -1,0 +1,27 @@
+@media screen and (max-width: 1280px){
+	body{
+		overflow-x: hidden;
+	}
+	.nav__links{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: absolute;
+		width: 50%;
+		right: 0px;
+		height: 92vh;;
+		top: 8vh;
+		background-color: rgba(68, 68, 68, 0.8);
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
+	}
+	li{
+		opacity: 0;
+	}
+	.nav__burger-menu{
+		display: block;
+	}
+	.nav-active{
+		transform: translateX(0%);
+	}
+}
