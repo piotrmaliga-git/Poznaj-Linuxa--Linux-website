@@ -1,7 +1,7 @@
 .section__info-bar{
 	width: 50%;
 	margin: auto auto;
-	background-color: rgba(18, 136, 112, 0.92);
+	background-color: $my-green-o9;
 	margin-top: 130px;
 	margin-bottom: 30px;
 	border-radius: 8px;
@@ -12,14 +12,13 @@
 		text-align: center;
 		height: auto;
 		padding: 30px;
-		border-right: 2px dotted #fff;
+		border-right: 2px dotted $white;
 		margin: auto auto;
 	}
 	.section__info-bar-right{
 		float: left;
 		padding: 30px;
 		width: 78%;
-		color: #fff;
 		height: auto;
 		font-size: 17px;
 		text-align: justify;

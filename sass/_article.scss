@@ -1,8 +1,8 @@
 .article{
 	width: 35%;
 	margin: auto auto;
-	background-image: linear-gradient(to right, #a3a3a3, rgb(228, 225, 225));
-	color: #000;
+	background-image: linear-gradient(to right, $article-bg-gradient-d, $article-bg-gradient-l);
+	color: $black;
 	text-align: justify;
 	font-size: 18px;
 	border-radius: 8px;
@@ -14,7 +14,7 @@
 .article__dotted-line{
 	height: 5px;
 	margin: 15px 0 25px 0;
-	border-bottom: 2px dotted #444;
+	border-bottom: 2px dotted $dark-gray;
 }
 .article__image{
 	width: 85%;
@@ -57,7 +57,7 @@
 	width: 85%;
 	display: block;
 	margin: auto auto;
-	border: 1px solid rgba(68, 68, 68, 0.8);
+	border: 1px solid $dark-gray-o8;
 }
 .article__title{
 	padding: 10px 25px;
@@ -121,5 +121,5 @@ figcaption{
 .article__links{
 	text-decoration: none;
 	cursor: pointer;
-	color: #2c2c96;
+	color: $article-link;
 }
