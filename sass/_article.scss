@@ -7,30 +7,30 @@
 	font-size: $article-font-size;
 	border-radius: 8px;
 	padding: 30px;
-	.article__maim-title{
+	&__maim-title{
 		font-size: 35px;
 	}
-	.article__dotted-line{
+	&__dotted-line{
 		height: 5px;
 		margin: 15px 0 25px 0;
 		border-bottom: 2px dotted $dark-gray;
 	}
-	.article__title{
+	&__title{
 		padding: 10px 25px;
 		text-align: left;
 	}
-	.article__title-smaller{
+	&__title-smaller{
 		text-align: left;
 		padding: 0px 25px;
 	}
-	.article__text{
+	&__text{
 		padding: 25px;
 	}
-	.article__text-small{
+	&__text-small{
 		text-align: left;
 		padding: 25px;
 	}
-	.article__links{
+	&__links{
 		text-decoration: none;
 		cursor: pointer;
 		color: $article-link;
