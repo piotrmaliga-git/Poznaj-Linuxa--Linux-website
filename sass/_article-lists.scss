@@ -1,6 +1,6 @@
 .article{
    &__list{
-		padding: 25px;
+		padding: $standard-padding;
 		padding-left: 40px;
 	}
 	&__list-item{
@@ -9,7 +9,7 @@
 		padding: 5px;
 	}
 	&__list-2{
-		padding: 25px;
+		padding: $standard-padding;
 		padding-left: 45px;
 	}
 	&__list-item-2{
@@ -17,7 +17,7 @@
 		padding: 5px;
 	}
 	&__list-3{
-		padding: 10px 25px;
+		padding: 10px $standard-padding;
 		padding-left: 40px;
 	}
 	&__list-item-3{
@@ -26,7 +26,7 @@
 		padding: 5px;
 	}
 	&__list-4{
-		padding: 25px;
+		padding: $standard-padding;
 		list-style-type: none;
 	}
 	&__list-5{

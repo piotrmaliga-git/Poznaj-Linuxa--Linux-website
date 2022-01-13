@@ -16,19 +16,19 @@
 		border-bottom: 2px dotted $dark-gray;
 	}
 	&__title{
-		padding: 10px 25px;
+		padding: 10px $standard-padding;
 		text-align: left;
 	}
 	&__title-smaller{
 		text-align: left;
-		padding: 0px 25px;
+		padding: 0px $standard-padding;
 	}
 	&__text{
-		padding: 25px;
+		padding: $standard-padding;
 	}
 	&__text-small{
 		text-align: left;
-		padding: 25px;
+		padding: $standard-padding;
 	}
 	&__links{
 		text-decoration: none;
@@ -37,8 +37,7 @@
 	}
 	figcaption{
 		text-align: center;
-		padding-top: 5px;
-		padding-bottom: 20px;
+		padding: 5px 0px 20px;
 		font-size: $figcaption-font-size;
 	}
 }

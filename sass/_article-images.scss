@@ -2,17 +2,17 @@
    &__image{
 		@extend %img;
 		width: 85%;
-		padding: 25px;
+		padding: $standard-padding;
 	}
    &__image-2{
 		@extend %img;
 		width: 75%;
-		padding: 25px;
+		padding: $standard-padding;
 	}
 	&__image-3{
 		@extend %img;
 		width: 45%;
-		padding: 25px;
+		padding: $standard-padding;
 	}
 	&__image-shadow{
 		@extend %img;
@@ -22,13 +22,13 @@
 		@extend %img;
 		width: 45%;
 		height: 45%;
-		padding: 50px 25px;
+		padding: 50px $standard-padding;
 	}
 	&__image-logo-2{
 		@extend %img;
 		width: 30%;
 		height: 30%;
-		padding:  50px 25px;
+		padding:  50px $standard-padding;
 	}
 	&__image-installation{
 		@extend %img;
