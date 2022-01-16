@@ -1,13 +1,21 @@
 // font-sizes
 $logo-font-size: 30px;
-$links-font-size: 15.5px;
+$logo-font-size-medium: 27px;
+$logo-font-size-smaller: 25px;
+$logo-font-size-very-small: 22px;
 
 $info-bar-font-size: 17px;
 
 $article-font-size: 18px;
+$article-font-size-smaller: 16.7px;
+
+$links-font-size: 15.5px;
+
 $figcaption-font-size: 14.5px;
 
 $footer-font-size: 15px;
+$footer-font-size-smaller: 14px;
+$footer-font-size-very-small: 13px;
 
 //colors
 $white: rgb(255, 255, 255);
@@ -29,4 +37,7 @@ $article-link: rgb(44, 44, 150);
 $margin-b: 30px;
 
 //paddings
-$standard-padding: 25px;
+$standard-padding: 23px;
+$standard-padding-medium: 20px;
+$standard-padding-smaller: 15px;
+$standard-padding-very-small: 10px;

@@ -1,4 +1,87 @@
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 2370px){
+	.nav__links{
+		width: 38%;
+	}
+	.section__info-bar{
+		width: 53%;
+	}
+	.article{
+		width: 38%;
+	}
+}
+
+@media screen and (max-width: 2180px){
+	.nav__links{
+		width: 42%;
+	}
+	.section__info-bar{
+		width: 56%;
+	}
+	.article{
+		width: 41%;
+	}
+}
+
+@media screen and (max-width: 1990px){
+	.nav__links{
+		width: 46%;
+	}
+	.section__info-bar{
+		width: 59%;
+	}
+	.article{
+		width: 45%;
+	}
+}
+
+// Full HD - (1920 x 1080)
+@media screen and (max-width: 1920px){
+	.section__info-bar{
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 1800px){
+	.nav__links{
+		width: 53%;
+	}
+	.section__info-bar{
+		width: 63%;
+	}
+	.article{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 1610px){
+	.nav__links{
+		width: 58%;
+	}
+	.section__info-bar{
+		width: 66%;
+	}
+	.article{
+		width: 56%;
+	}
+}
+
+@media screen and (max-width: 1525px){
+	.nav__links{
+		width: 61%;
+	}
+	.section__info-bar{
+		width: 71%;
+	}
+}
+
+//  (1440 x 900)
+@media screen and (max-width: 1440px){
+	.nav__links{
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 1420px){
 	body{
 		overflow-x: hidden;
 		.nav__links{
@@ -22,6 +105,264 @@
 		}
 		.nav-active{
 			transform: translateX(0%);
+		}
+		.section__info-bar{
+			width: 80%;
+		}
+		.article{
+			width: 63%;
+		}
+	}
+}
+
+//  720p - (1280 x 720)
+@media screen and (max-width: 1280px){
+	body{
+		.section__info-bar{
+			width: 85%;
+		}
+		.article{
+			width: 67%;
+		}
+	}
+}
+
+@media screen and (max-width: 1230px){
+	body{
+		.nav{
+			padding: 0 100px 0 100px;
+			&__logo-title{
+				font-size: $logo-font-size-medium;
+			}
+		}
+		.section__info-bar{
+			width: 95%;
+		}
+		.article{
+			width: 75%;
+		}
+	}
+}
+
+@media screen and (max-width: 1040px){
+	body{
+		.nav{
+			padding: 0px 100px 0px 100px;
+		}
+		.section__info-bar{
+			width: 55%;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			flex-direction: column;
+			margin-inline: auto;
+			.section__info-bar-left{
+				width: auto;
+				border: none;
+				display: flex;
+				justify-content: center;
+				text-align: center;
+				flex-direction: column;
+			}
+			.section__info-bar-right{
+				display: flex;
+				justify-content: center;
+				text-align: center;
+				flex-direction: column;
+				margin-inline: auto;
+				padding: 0px 0px 30px 0px;
+				.section__info-bar-right-text{
+					text-align: justify;
+				}
+			}
+		}
+		.article{
+			width: 80%;
+			padding: $standard-padding-medium;
+		}
+	}
+}
+
+@media screen and (max-width: 950px){
+	body{
+		.section__info-bar{
+			width: 60%;
+		}
+		.article{
+			width: 85%;
+		}
+	}
+}
+
+@media screen and (max-width: 850px){
+	body{
+		.section__info-bar{
+			width: 65%;
+		}
+		.article{
+			width: 90%;
+		}
+	}
+}
+
+@media screen and (max-width: 750px){
+	body{
+		.section__info-bar{
+			width: 70%;
+		}
+		.article{
+			width: 95%;
+		}
+	}
+}
+
+@media screen and (max-width: 650px){
+	body{
+		.section__info-bar{
+			width: 75%;
+		}
+		.article{
+			width: 95%;
+		}
+	}
+}
+
+@media screen and (max-width: 660px){
+	body{
+		.nav{
+			padding: 0 50px 0 50px;
+			&__logo-title{
+				font-size: $logo-font-size-smaller;
+			}
+			&__links{
+				width: 55%;
+			}
+		}
+		.section__info-bar{
+			width: 80%;
+		}
+		.article{
+			width: 95%;
+			padding: 20px 5px;
+			font-size: $article-font-size-smaller;
+			text-align: left;
+			&__main-title{
+				font-size: 31px;
+				padding: $standard-padding-smaller;
+			}
+			&__dotted-line{
+				margin: 0px $standard-padding-smaller $standard-padding-medium $standard-padding-smaller;
+			}
+			&__title{
+				padding: $standard-padding 15px;
+				font-size: 21px;
+			}
+			&__text{
+				padding: $standard-padding-smaller;
+			}
+			&__image{
+				width: 88%;
+				padding:  0px $standard-padding-smaller;
+			}
+			&__image-2{
+				width: 70%;
+				padding: $standard-padding-smaller;
+			}
+			&__image-3{
+				width: 55%;
+				padding: $standard-padding-smaller;
+				border-radius: 20px;
+			}
+			&__title-smaller{
+				text-align: left;
+				padding: $standard-padding 15px;
+			}
+			&__image-shadow{
+				width: 95%;
+			}
+			&__image-logo{
+				width: 55%;
+				height: 55%;
+				padding: $standard-padding-very-small;
+			}
+			&__image-logo-2{
+				padding: $standard-padding-very-small;
+			}
+			&__image-installation{
+				width: 80%;
+			}
+		}
+		.footer__text{
+			font-size: $footer-font-size-smaller;
+		}
+	}
+}
+
+@media screen and (max-width: 470px){
+	body{
+		.nav{
+			padding: 0px $standard-padding 0px $standard-padding;
+			&__logo-title{
+				font-size: $logo-font-size-very-small;
+			}
+			&__links{
+				width: 58%;
+			}
+		}
+		.section__info-bar{
+			width: 85%;
+		}
+		.article{
+			width: 95%;
+			padding: 20px 5px;
+			&__main-title{
+				font-size: 28px;
+				padding: $standard-padding-very-small;
+			}
+			&__dotted-line{
+				margin: 0px $standard-padding-very-small 10px $standard-padding-very-small;
+			}
+			&__title{
+				padding: $standard-padding $standard-padding-very-small;
+				font-size: 21px;
+				text-align:  left;
+			}
+			&__text{
+				padding: $standard-padding-very-small;
+			}
+			&__image{
+				width: 100%;
+			}
+			&__image-2{
+				width: 85%;
+				padding: $standard-padding-very-small;
+			}
+			&__image-3{
+				width: 60%;
+			}
+			&__title-smaller{
+				text-align: left;
+				padding: $standard-padding $standard-padding-very-small;
+			}
+			&__image-shadow{
+				width: 100%;
+			}
+			&__image-logo{
+				width: 60%;
+				height: 60%;
+				padding: $standard-padding-very-small;
+			}
+			&__image-logo-2{
+				width: 50%;
+				height: 50%;
+				padding: $standard-padding-very-small;
+			}
+			&__image-installation{
+				width: 90%;
+			}
+		}
+		.footer__text{
+			font-size: $footer-font-size-very-small;
 		}
 	}
 }
