@@ -1,29 +1,29 @@
-.section__info-bar{
-	width: 50%;
-	margin-inline: auto;
-	background-color: $my-green-o9;
-	margin-top: $margin-b + 100px;
-	margin-bottom: $margin-b;
-	border-radius: 8px;
-	.section__info-bar-left{
+.section{
+	&__info-bar{
+		width: 50%;
+		margin-inline: auto;
+		background-color: $my-green-o9;
+		margin-top: $margin-b + 100px;
+		margin-bottom: $margin-b;
+		border-radius: 8px;
+	}
+	&__info-bar-left{
 		display: block;
 		float: left;
 		width: 22%;
 		text-align: center;
-		height: auto;
 		padding: 30px;
 		border-right: 2px dotted $white;
 		margin-inline: auto;
 	}
-	.section__info-bar-right{
+	&__info-bar-right{
 		float: left;
 		padding: 30px;
 		width: 78%;
-		height: auto;
 		font-size: $info-bar-font-size;
 		text-align: justify;
-		.section__info-bar-right-title {
-			margin-bottom: 15px;
-		}
+	}
+	&__info-bar-right-title{
+		margin-bottom: 15px;
 	}
 }
