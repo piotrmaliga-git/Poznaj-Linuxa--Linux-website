@@ -7,12 +7,13 @@
 	font-size: $article-font-size;
 	border-radius: 8px;
 	padding: 30px;
-	&__maim-title{
+	&__main-title{
 		font-size: 35px;
+		text-align: left;
 	}
 	&__dotted-line{
 		height: 5px;
-		margin: 15px 0 25px 0;
+		margin: 15px 0px 25px 0px;
 		border-bottom: 2px dotted $dark-gray;
 	}
 	&__title{
