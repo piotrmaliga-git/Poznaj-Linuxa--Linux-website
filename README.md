@@ -8,13 +8,13 @@ I have created the website dedicated to the Linux operating system. My aim was t
 
 - The website has sticky navigation bar for more convenience of use.
 
-- In the mobile version of the website links in the navigation bar are changing to more comfortable hamburger menu. After clicking on this the navigation menu with links to subpages is shown on the right side. Moreover, displaying links in the Menu has a subtle "wave" animation. 
+- The website links in the navigation bar are changing to more comfortable hamburger menu in the mobile version of the website. After clicking on this the navigation menu with links to subpages is shown on the right side. Moreover, displaying links in the menu has a subtle "wave" animation. 
 
 - The green container encourages you to continue visiting the site. The color of the container gives the proverbial green light for new knowledge.
 
 - The Photo gallery slider allows you to comfortably view the prepared photos. (Left - Right)
 
--  Regarding the side content  I have presented myself in a simple and legible way so that new knowledge will be easy to gain.
+-  Regarding the side content  I have presented myself in a simple and legible way so that new knowledge is easy to gain.
 
 ## Technologies
 
