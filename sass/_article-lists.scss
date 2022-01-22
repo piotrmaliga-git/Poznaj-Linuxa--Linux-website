@@ -1,40 +1,40 @@
-.article{
-   &__list{
-		padding: $standard-padding;
-		padding-left: 40px;
-	}
-	&__list-item{
-		text-align: left;
-		font-size: 15.6px;
-		padding: 5px;
-	}
-	&__list-2{
-		padding: $standard-padding;
-		padding-left: 45px;
-	}
-	&__list-item-2{
-		text-align: left;
-		padding: 5px;
-	}
-	&__list-3{
-		padding: 10px $standard-padding;
-		padding-left: 40px;
-	}
-	&__list-item-3{
-		text-align: justify;
-		font-size: 17px;
-		padding: 5px;
-	}
-	&__list-4{
-		padding: $standard-padding;
-		list-style-type: none;
-	}
-	&__list-5{
-		padding-left: 100px;
-	}
-	&__list-item-5{
-		text-align: left;
-		font-size: 16px;
-		padding-bottom: 20px;
-	}
+.article {
+  &__list {
+    padding: $standard-padding;
+    padding-left: 40px;
+  }
+  &__list-item {
+    text-align: left;
+    font-size: 15.6px;
+    padding: 5px;
+  }
+  &__list-2 {
+    padding: $standard-padding;
+    padding-left: 45px;
+  }
+  &__list-item-2 {
+    text-align: left;
+    padding: 5px;
+  }
+  &__list-3 {
+    padding: 10px $standard-padding;
+    padding-left: 40px;
+  }
+  &__list-item-3 {
+    text-align: justify;
+    font-size: 17px;
+    padding: 5px;
+  }
+  &__list-4 {
+    padding: $standard-padding;
+    list-style-type: none;
+  }
+  &__list-5 {
+    padding-left: 100px;
+  }
+  &__list-item-5 {
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
 }

@@ -1,53 +1,55 @@
-.section{
-	&__gallery-slider{
-		display: flex;
-		object-fit: cover;
-		width: var(--slider-width);
-		height: calc(var(--slider-width) * 2 / 3);
-		position: relative;
-	}
-	&__gallery{
-		width: var(--slider-width);
-		height: calc(var(--slider-width) * 2 / 3);
-		margin: auto;
-		border: 2px solid $dark-gray-o8;
-		overflow: hidden;
-		position: relative;
-		margin-bottom: $margin-b;
-	}
-	&__gallery-image{
-		object-fit: cover;
-		width: var(--slider-width);
-		height: calc(var(--slider-width) * 2 / 3);
-	}
+.section {
+  &__gallery-slider {
+    display: flex;
+    object-fit: cover;
+    width: var(--slider-width);
+    height: calc(var(--slider-width) * 2 / 3);
+    position: relative;
+  }
+  &__gallery {
+    width: var(--slider-width);
+    height: calc(var(--slider-width) * 2 / 3);
+    margin: auto;
+    border: 2px solid $dark-gray-o8;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: $margin-b;
+  }
+  &__gallery-image {
+    object-fit: cover;
+    width: var(--slider-width);
+    height: calc(var(--slider-width) * 2 / 3);
+  }
 }
 
-#previous, #next{
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 15px;
-	margin-top: -22px;
-	font-weight: bold;
-	font-size: 25px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	background-color: $dark-gray-o6;
-	transition: all 0.4s ease;
+#previous,
+#next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 15px;
+  margin-top: -22px;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: $dark-gray-o6;
+  transition: all 0.4s ease;
 }
-#next{
-	right: 0;
-	border-radius: 3px 0 0 3px;
+#next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
-#previous:hover, #next:hover{
-	background-color: $dark-gray-o8;
-	transition: all 0.4s ease;
+#previous:hover,
+#next:hover {
+  background-color: $dark-gray-o8;
+  transition: all 0.4s ease;
 }
 :root {
-	--slider-width: 850px;
-	--slider-width-1: 750px;
-	--slider-width-2: 650px;
-	--slider-width-3: 550px;
+  --slider-width: 850px;
+  --slider-width-1: 750px;
+  --slider-width-2: 650px;
+  --slider-width-3: 550px;
 }

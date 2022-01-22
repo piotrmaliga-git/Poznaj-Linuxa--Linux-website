@@ -1,44 +1,44 @@
-.article{
-	width: 35%;
-	margin: auto auto;
-	background-image: linear-gradient(to right, $article-bg-gradient-d, $article-bg-gradient-l);
-	color: $black;
-	text-align: justify;
-	font-size: $article-font-size;
-	border-radius: 8px;
-	padding: 30px;
-	&__main-title{
-		font-size: 35px;
-		text-align: left;
-	}
-	&__dotted-line{
-		height: 5px;
-		margin: 15px 0px 25px 0px;
-		border-bottom: 2px dotted $dark-gray;
-	}
-	&__title{
-		padding: 10px $standard-padding;
-		text-align: left;
-	}
-	&__title-smaller{
-		text-align: left;
-		padding: 0px $standard-padding;
-	}
-	&__text{
-		padding: $standard-padding;
-	}
-	&__text-small{
-		text-align: left;
-		padding: $standard-padding;
-	}
-	&__links{
-		text-decoration: none;
-		cursor: pointer;
-		color: $article-link;
-	}
-	figcaption{
-		text-align: center;
-		padding: 5px 0px 20px;
-		font-size: $figcaption-font-size;
-	}
+.article {
+  width: 35%;
+  margin: auto auto;
+  background-image: linear-gradient(to right, $article-bg-gradient-d, $article-bg-gradient-l);
+  color: $black;
+  text-align: justify;
+  font-size: $article-font-size;
+  border-radius: 8px;
+  padding: 30px;
+  &__main-title {
+    font-size: 35px;
+    text-align: left;
+  }
+  &__dotted-line {
+    height: 5px;
+    margin: 15px 0px 25px 0px;
+    border-bottom: 2px dotted $dark-gray;
+  }
+  &__title {
+    padding: 10px $standard-padding;
+    text-align: left;
+  }
+  &__title-smaller {
+    text-align: left;
+    padding: 0px $standard-padding;
+  }
+  &__text {
+    padding: $standard-padding;
+  }
+  &__text-small {
+    text-align: left;
+    padding: $standard-padding;
+  }
+  &__links {
+    text-decoration: none;
+    cursor: pointer;
+    color: $article-link;
+  }
+  figcaption {
+    text-align: center;
+    padding: 5px 0px 20px;
+    font-size: $figcaption-font-size;
+  }
 }

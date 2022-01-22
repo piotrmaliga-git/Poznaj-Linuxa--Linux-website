@@ -1,39 +1,39 @@
-.article{
-   &__image{
-		@extend %img;
-		width: 85%;
-		padding: $standard-padding;
-	}
-   &__image-2{
-		@extend %img;
-		width: 75%;
-		padding: $standard-padding;
-	}
-	&__image-3{
-		@extend %img;
-		width: 47%;
-		padding: $standard-padding;
-		border-radius: 30px
-	}
-	&__image-shadow{
-		@extend %img;
-		width: 90%;
-	}
-	&__image-logo{
-		@extend %img;
-		width: 45%;
-		height: 45%;
-		padding: 50px $standard-padding;
-	}
-	&__image-logo-2{
-		@extend %img;
-		width: 30%;
-		height: 30%;
-		padding:  50px $standard-padding;
-	}
-	&__image-installation{
-		@extend %img;
-		width: 85%;
-		border: 1px solid $dark-gray-o8;
-	}
+.article {
+  &__image {
+    @extend %img;
+    width: 85%;
+    padding: $standard-padding;
+  }
+  &__image-2 {
+    @extend %img;
+    width: 75%;
+    padding: $standard-padding;
+  }
+  &__image-3 {
+    @extend %img;
+    width: 47%;
+    padding: $standard-padding;
+    border-radius: 30px;
+  }
+  &__image-shadow {
+    @extend %img;
+    width: 90%;
+  }
+  &__image-logo {
+    @extend %img;
+    width: 45%;
+    height: 45%;
+    padding: 50px $standard-padding;
+  }
+  &__image-logo-2 {
+    @extend %img;
+    width: 30%;
+    height: 30%;
+    padding: 50px $standard-padding;
+  }
+  &__image-installation {
+    @extend %img;
+    width: 85%;
+    border: 1px solid $dark-gray-o8;
+  }
 }
