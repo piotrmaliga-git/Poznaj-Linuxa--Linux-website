@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=, initial-scale=1.0">
    <meta name="descrition" content="Poznaj Linuxa!" />
-   <meta name="keywords" content="Linux, Dlaczego Linux?, Historia, instalacja, Komendy, Terminal, Bash, Twórca, Dystrybucje, Linus Torvalds" />
+   <meta name="keywords"
+      content="Linux, Dlaczego Linux?, Historia, instalacja, Komendy, Terminal, Bash, Twórca, Dystrybucje, Linus Torvalds" />
    <meta name="author" content="Piotr Maliga" />
    <title>Poznaj Linuxa!</title>
 
@@ -18,108 +20,109 @@
    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;800&display=swap" rel="stylesheet">
 
    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-   integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+   <script defer src="js/script.js"></script>
 </head>
+
 <body>
    <div class="body__bg-image"></div>
 
    <nav class="nav">
-        <div class="nav__logo">
-            <a class="nav__logo-title" href="index.html">Poznaj Linuxa!</a>
-        </div>
-        <ul class="nav__links"> 
-            <li class="nav__item">
-                <a class="nav__link" href="index.html">Dlaczego Linux?</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__link" href="history.html">Historia</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__link" href="creator.html">Twórca</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__link" href="distributions.html">Dystrybucje</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__link" href="installation.html">Instalacja</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__link-active" href="commands.html">Komendy</a>
-            </li>
-        </ul>
-        <div class="nav__burger-menu">
-            <div class="burger-menu--line1"></div>
-            <div class="burger-menu--line2"></div>
-            <div class="burger-menu--line3"></div>
-        </div>
-        <script src="js/nav-bar.js"></script>
-    </nav>
+      <div class="nav__logo">
+         <a class="nav__logo-title" href="index.html">Poznaj Linuxa!</a>
+      </div>
+      <ul class="nav__links">
+         <li class="nav__item">
+            <a class="nav__link" href="index.html">Dlaczego Linux?</a>
+         </li>
+         <li class="nav__item">
+            <a class="nav__link" href="history.html">Historia</a>
+         </li>
+         <li class="nav__item">
+            <a class="nav__link" href="creator.html">Twórca</a>
+         </li>
+         <li class="nav__item">
+            <a class="nav__link" href="distributions.html">Dystrybucje</a>
+         </li>
+         <li class="nav__item">
+            <a class="nav__link" href="installation.html">Instalacja</a>
+         </li>
+         <li class="nav__item">
+            <a class="nav__link-active" href="commands.html">Komendy</a>
+         </li>
+      </ul>
+      <div class="nav__burger-menu">
+         <div class="burger-menu--line1"></div>
+         <div class="burger-menu--line2"></div>
+         <div class="burger-menu--line3"></div>
+      </div>
+   </nav>
 
-    <section class="section">
-        <div class="section__info-bar">
-            <div class="section__info-bar-left">
-                <img class="section__info-bar-left-image" src="img/linux.png" alt="Brak zdjęcia zgłoś administratorowi." />
-            </div>
-            <div class="section__info-bar-right">
-                <h1 class="section__info-bar-right-title">Kilka słów o projekcie</h1>
-                <p class="section__info-bar-right-text">
-                    „Kiedy mówisz „Napisałem program, który wywalił Windows”, ludzie gapią się na ciebie głupkowato i
-                    mówią „Hej, dostałem je wraz z systemem, *za darmo*.«“ - Powiedział to Linus Torvalds, twórca
-                    Linuxa. Zapraszam do zapoznania się z wirtyną, dzięki której dowiesz sie co to jest Linux i
-                    wybierzesz dystrybucję dla siebie!
-                </p>
-            </div>
-            <div style="clear: both"></div>
-        </div>
-    
-        <div class="section__gallery">
-            <div class="section__gallery-slider">
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g10.png" id="last" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g1.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g2.png" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g3.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g4.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g5.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g6.png" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g7.png" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g8.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g9.png" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g10.png" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-                <div class="section__gallery-item">
-                    <img class="section__gallery-image" src="img/gallery/g1.jpg" id="first" alt="Brak zdjęcia zgłoś administratorowi.">
-                </div>
-            </div>
-    
-            <i class="fas fa-chevron-left" id="previous"></i>
-            <i class="fas fa-chevron-right" id="next"></i>
-        
-        </div>
-        <script src="js/image-slider.js"></script>
-    </section>
+   <section class="section">
+      <div class="section__info-bar">
+         <div class="section__info-bar-left">
+            <img class="section__info-bar-left-image" src="img/linux.png" alt="Brak zdjęcia zgłoś administratorowi." />
+         </div>
+         <div class="section__info-bar-right">
+            <h1 class="section__info-bar-right-title">Kilka słów o projekcie</h1>
+            <p class="section__info-bar-right-text">
+               „Kiedy mówisz „Napisałem program, który wywalił Windows”, ludzie gapią się na ciebie głupkowato i
+               mówią „Hej, dostałem je wraz z systemem, *za darmo*.«“ - Powiedział to Linus Torvalds, twórca
+               Linuxa. Zapraszam do zapoznania się z wirtyną, dzięki której dowiesz sie co to jest Linux i
+               wybierzesz dystrybucję dla siebie!
+            </p>
+         </div>
+         <div style="clear: both"></div>
+      </div>
 
-    <article class="article">
+      <div class="section__gallery">
+         <div class="section__gallery-slider">
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g10.png" id="last"
+                  alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g1.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g2.png" alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g3.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g4.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g5.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g6.png" alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g7.png" alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g8.jpg" alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g9.png" alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g10.png" alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+            <div class="section__gallery-item">
+               <img class="section__gallery-image" src="img/gallery/g1.jpg" id="first"
+                  alt="Brak zdjęcia zgłoś administratorowi.">
+            </div>
+         </div>
+         <i class="fas fa-chevron-left" id="previous"></i>
+         <i class="fas fa-chevron-right" id="next"></i>
+      </div>
+   </section>
+
+   <article class="article">
       <h1 class="article__main-title">Podstawowe komendy</h1>
 
       <div class="article__dotted-line"></div>
@@ -130,7 +133,11 @@
       </figure>
 
       <p class="article__text">
-         Niezależnie od tego, czy jesteś nowym użytkownikiem systemu Linux, czy też używasz Linuksa od jakiegoś czasu, w tym artykule pomoge ci rozpocząć pracę z terminalem. Terminal nie jest czymś, czego powinieneś się bać - to potężne narzędzie z wieloma zastosowaniami. Nie nauczyć się wszystkiego, co musisz wiedzieć o terminalu, czytając tylko ten jeden artykuł. Mamy nadzieję, że to wprowadzenie pomoże ci opanować podstawy, abyś mógł kontynuować naukę.
+         Niezależnie od tego, czy jesteś nowym użytkownikiem systemu Linux, czy też używasz Linuksa od jakiegoś czasu, w
+         tym artykule pomoge ci rozpocząć pracę z terminalem. Terminal nie jest czymś, czego powinieneś się bać - to
+         potężne narzędzie z wieloma zastosowaniami. Nie nauczyć się wszystkiego, co musisz wiedzieć o terminalu,
+         czytając tylko ten jeden artykuł. Mamy nadzieję, że to wprowadzenie pomoże ci opanować podstawy, abyś mógł
+         kontynuować naukę.
       </p>
 
       <h2 class="article__title">Pomoc</h2>
@@ -154,13 +161,15 @@
             <b>logout</b> - komenda służąca do wylogowania się z terminala.
          </li>
          <li class="article__list-item-5">
-            <b>exit</b> - komenda służąca do zakończenia procesu powłoki: tcsh, bash, itp. Może być używana w skryptach. Pozwala też zwrócić kod wyjścia ze skryptu:
+            <b>exit</b> - komenda służąca do zakończenia procesu powłoki: tcsh, bash, itp. Może być używana w skryptach.
+            Pozwala też zwrócić kod wyjścia ze skryptu:
          </li>
          <li class="article__list-item-5">
             <b>passwd</b> - zmień hasło użytkownika
          </li>
          <li class="article__list-item-5">
-            <b>^D</b> - (Ctrl-D) wysyła komunikat EOF (end-of-file) do terminala. Oznacza koniec wprowadzania danych. W powłoce 'bash' skutkuje zazwyczaj zamknięciem terminala.
+            <b>^D</b> - (Ctrl-D) wysyła komunikat EOF (end-of-file) do terminala. Oznacza koniec wprowadzania danych. W
+            powłoce 'bash' skutkuje zazwyczaj zamknięciem terminala.
          </li>
          <li class="article__list-item-5">
             <b>whoami</b> - wyświetla nazwę użytkownika
@@ -169,7 +178,9 @@
             <b>id</b> - wyświetla obecną nazwę i grupę użytkownika oraz ich numery (UID i GID)
          </li>
          <li class="article__list-item-5">
-            <b>su</b> - komenda do przelogowania się jako inny użytkownik (su, od 'switch user'). Pozwala, w tym samym terminalu, zmienić uprawnienia do wykonywania komend chwilowo na innego użytkownika (zmienić aktualny UID i GID)
+            <b>su</b> - komenda do przelogowania się jako inny użytkownik (su, od 'switch user'). Pozwala, w tym samym
+            terminalu, zmienić uprawnienia do wykonywania komend chwilowo na innego użytkownika (zmienić aktualny UID i
+            GID)
          <li class="article__list-item-5">
             <b>finger</b> - wypisuje wszystkich użytkowników obecnie zalogowanych na danej maszynie (i ich terminale)
          </li>
@@ -177,7 +188,7 @@
             <b>w</b> - podobnie jak finger wypisuje zalogowanych użytkowników i ich aktywne terminale
          </li>
       </ul>
-      
+
       <h2 class="article__title">Podstawowe komendy</h2>
 
       <ul class="article__list-4">
@@ -191,7 +202,7 @@
             <b>ls</b> - listuje katalog
          </li>
          <li class="article__list-item-5">
-            <b>cat</b> -  wypisuje wszystkie podane mu pliki na standardowe wyjście
+            <b>cat</b> - wypisuje wszystkie podane mu pliki na standardowe wyjście
          </li>
          <li class="article__list-item-5">
             <b>tac</b> - wypisuje wszystkie podane mu pliki na standardowe wyjście, ale w odwraca kolejność linii
@@ -229,13 +240,14 @@
          </li>
          <li class="article__list-item-5">
             <b>chmod</b> - zmienia prawa dostępu do pliku
-            <br/>
-            grupy użytkowników: u - user, g - group, o - others, a - allprawa 
-            <br/>
+            <br />
+            grupy użytkowników: u - user, g - group, o - others, a - allprawa
+            <br />
             dostępu: r - read, w - write, x - execute
          </li>
          <li class="article__list-item-5">
-            <b>locate</b> - wypisuje gdzie ostatnio, na tym komputerze, był widziany plik o podanej nazwie (lub fragmencie nazwy)
+            <b>locate</b> - wypisuje gdzie ostatnio, na tym komputerze, był widziany plik o podanej nazwie (lub
+            fragmencie nazwy)
          </li>
          <li class="article__list-item-5">
             <b>locate raport.txt</b> – locate pdf
@@ -251,16 +263,18 @@
       </figure>
 
       <h2 class="article__title">Edytory</h2>
-      
+
       <ul class="article__list-4">
          <li class="article__list-item-5">
-            <b>vim</b> - zaawansowany edytor tekstowy w trybie tekstowym. Vi iMproved - nowa wersja znanego edytora Vi. Posiada
+            <b>vim</b> - zaawansowany edytor tekstowy w trybie tekstowym. Vi iMproved - nowa wersja znanego edytora Vi.
+            Posiada
          </li>
          <li class="article__list-item-5">
             <b>gvim</b> - vim w trybie graficznym
          </li>
          <li class="article__list-item-5">
-            <b>emacs</b> - zaawansowany edytor tekstowy w trybie graficznym. Emacs podobnie jak Vim jest wszechstronnym edytorem obsługującym wiele języków i posiadającym bogate funkcje.
+            <b>emacs</b> - zaawansowany edytor tekstowy w trybie graficznym. Emacs podobnie jak Vim jest wszechstronnym
+            edytorem obsługującym wiele języków i posiadającym bogate funkcje.
          </li>
          <li class="article__list-item-5">
             <b>uemacs</b> - edytor tekstowy w trybie tekstowym. Micro Emacs jest tekstową wersją Emacsa
@@ -269,7 +283,8 @@
             <b>joe</b> - prosty edytor tekstowy. Joe's Own Editor. Nadaje się do pisania prostych dokumentów
          </li>
          <li class="article__list-item-5">
-            <b>mcedit</b> - edytor tekstowy w trybie tekstowym. mcedit jest wbudowanym w Midnight Commandera edytorem. Posiada m.in. podświetlanie składni
+            <b>mcedit</b> - edytor tekstowy w trybie tekstowym. mcedit jest wbudowanym w Midnight Commandera edytorem.
+            Posiada m.in. podświetlanie składni
          </li>
       </ul>
 
@@ -277,13 +292,18 @@
 
       <ul class="article__list-4">
          <li class="article__list-item-5">
-            <b>pine</b> - program do obsługi poczty Bardzo dobry, szybki i wygodny program do sprawdzania i wysyłania poczty elektronicznej. Jego największą zaletą jest to, że działa w trybie tekstowym, więc można uruchomić go na zdalnym terminalu.
+            <b>pine</b> - program do obsługi poczty Bardzo dobry, szybki i wygodny program do sprawdzania i wysyłania
+            poczty elektronicznej. Jego największą zaletą jest to, że działa w trybie tekstowym, więc można uruchomić go
+            na zdalnym terminalu.
          </li>
          <li class="article__list-item-5">
-            <b>ssh</b> - program do zdalnego logowania używając szyfrowanego połączenia. Najważniejszy sieciowy program. Umożliwia logowanie się na dowolny komputer na świecie, przy czym połączenie jest bezpieczne dzięki algorytmom szyfrującym opartym na kluczach RSA.
+            <b>ssh</b> - program do zdalnego logowania używając szyfrowanego połączenia. Najważniejszy sieciowy program.
+            Umożliwia logowanie się na dowolny komputer na świecie, przy czym połączenie jest bezpieczne dzięki
+            algorytmom szyfrującym opartym na kluczach RSA.
          </li>
          <li class="article__list-item-5">
-            <b>scp</b> - program do kopiowania plików używając szyfrowanego połączenia SSH. scp łączy się z podanym serwerem i kopiuje podane pliki między oboma komputerami- 'scp'do połączenia używa programu 'ssh'
+            <b>scp</b> - program do kopiowania plików używając szyfrowanego połączenia SSH. scp łączy się z podanym
+            serwerem i kopiuje podane pliki między oboma komputerami- 'scp'do połączenia używa programu 'ssh'
          </li>
          <li class="article__list-item-5">
             <b>rlogin</b> - prosty protokół zdalnego logowania
@@ -292,12 +312,13 @@
             <b>ping</b> - program diagnostyczny sprawdzający czy istnieje połączenie sieciowe z danym komputerem.
          </li>
       </ul>
-      
+
       <h2 class="article__title">Dyski</h2>
-      
+
       <ul class="article__list-4">
          <li class="article__list-item-5">
-            <b>df</b> - wypisuje rozmiary i ilość dostępnego miejsca na zamontowanych dyskach (w kilobajtach i w procentach)
+            <b>df</b> - wypisuje rozmiary i ilość dostępnego miejsca na zamontowanych dyskach (w kilobajtach i w
+            procentach)
          </li>
          <li class="article__list-item-5">
             <b>du</b> - policz rozmiary katalogów i plików zawartych w podanym katalogu
@@ -308,7 +329,7 @@
          <img class="article__image" src="img/df-h.png" alt="Brak zdjęcia zgłoś administratorowi.">
          <figcaption></figcaption>
       </figure>
-      
+
       <h2 class="article__title">Środowisko</h2>
 
       <ul class="article__list-4">
@@ -319,16 +340,18 @@
             <b>env</b> - wypisuje aktualne wartości wszystkich zmiennych środowiskowych
          </li>
          <li class="article__list-item-5">
-            <b>alias</b> - ustawia i wypisuje definicje skrótowych komend ('aliasów'), które są obecnie ustawione w środowisku
+            <b>alias</b> - ustawia i wypisuje definicje skrótowych komend ('aliasów'), które są obecnie ustawione w
+            środowisku
          </li>
       </ul>
-    </article>
+   </article>
 
-    <footer class="footer">
-        <p class="footer__text">
-            Poznaj Linuxa!- najlepsze darmowe forum o Linuxie. Strona w sieci od 2021r. &copy; Wszelkie prawa
-            zastrzeżone.
-        </p>
-    </footer>
+   <footer class="footer">
+      <p class="footer__text">
+         Poznaj Linuxa!- najlepsze darmowe forum o Linuxie. Strona w sieci od 2021r. &copy; Wszelkie prawa
+         zastrzeżone.
+      </p>
+   </footer>
 </body>
+
 </html>
